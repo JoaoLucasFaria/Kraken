@@ -51,6 +51,8 @@ print("CR:", col_cr)
 print("Size:", col_size)
 
 # ETAPA 1 -Seleção de colunas essenciais
+print("\nETAPA 1 - Eliminando colunas não essenciais...")
+
 # Nesta etapa vamos preparar um DataFrame de trabalho limpo, apenas com o que importa
 # para a geração de encontros.
 
@@ -125,7 +127,6 @@ df_work["CR_float"] = df_work["CR_float"].fillna(0.0)
 df_work["Environment"] = df_work["Environment"].replace("", "Unknown")
 df_work["Type"] = df_work["Type"].replace("", "Unknown")
 
-
 # Eliminar duplicatas
 before = len(df_work)
 df_work.drop_duplicates(inplace=True)
@@ -134,3 +135,49 @@ after = len(df_work)
 print(f"[INFO] Duplicatas removidas: {before - after}")
 print("[INFO] Visualização dos dados limpos:")
 print(df_work.head(10))
+
+# ETAPA 3 — Transformação (one-hot e multi-one-hot)
+print("\nETAPA 3 - Iniciando transformação (one-hot)...")
+
+# ID estável após a limpeza
+df_work = df_work.reset_index(drop=True)
+df_work.insert(0, "MonsterID", df_work.index + 1)
+
+# One-hot de Type e Size
+type_dummies = pd.get_dummies(df_work["Type"], prefix="type")
+size_dummies = pd.get_dummies(df_work["Size"], prefix="size")
+
+# Multi one-hot de Environment
+KNOWN_ENVS = [
+    "Arctic","Cave","Desert","Dungeon","Forest","Hell","Mountain",
+    "Plains","Sky","Underground","Urban","Water","Unknown"
+]
+
+def env_one_hot(env_str):
+    envs = [e.strip() for e in str(env_str).split(",") if e.strip()]
+    return {f"env_{e}": int(e in envs) for e in KNOWN_ENVS}
+
+env_dummies = df_work["Environment"].apply(env_one_hot).apply(pd.Series)
+
+features = pd.concat([
+    df_work[["MonsterID","CR_float"]],
+    type_dummies, size_dummies, env_dummies
+], axis=1)
+
+print("[INFO] Preview das features:", features.shape)
+print(features.head(5))
+
+# ETAPA 4 — Exportação final
+print("\nETAPA 3 - Exportando arquivos...")
+from pathlib import Path
+OUT_CLEAN = Path("monsters_clean.csv")
+OUT_TRAIN = Path("monsters_train.csv")
+
+# 1) Dataset limpo
+df_clean = df_work[["MonsterID","Type","Environment","Size","CR","CR_float"]]
+df_clean.to_csv(OUT_CLEAN, index=False)
+
+# 2) Dataset de treino
+features.to_csv(OUT_TRAIN, index=False)
+
+print(f"[OK] Salvos:\n - {OUT_CLEAN.resolve()}\n - {OUT_TRAIN.resolve()}")
