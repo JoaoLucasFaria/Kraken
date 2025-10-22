@@ -1,0 +1,488 @@
+MonsterID,Type,Environment,CR,Size,CR_float
+1,Humanoid,"Forest, Plains, Sky, Urban",0.25,Medium,0.25
+2,Aberration,"Dungeon, Underground, Water",10.00,Large,10.0
+3,Humanoid,"Forest, Plains, Urban",0.25,Medium,0.25
+4,Monstrosity,"Forest, Mountain, Water",1.00,Medium,1.0
+5,Undead,"Dungeon, Sky",5.00,Medium,5.0
+6,Beast,"Forest, Plains",0.00,Small,0.0
+7,Dragon,"Mountain, Sky",0.50,Medium,0.5
+8,Celestial,"Plains, Sky",10.00,Medium,10.0
+9,Celestial,"Plains, Sky",16.00,Large,16.0
+10,Celestial,"Plains, Sky",21.00,Large,21.0
+11,Construct,"Dungeon, Urban",1.00,Medium,1.0
+12,Construct,"Dungeon, Sky, Urban",0.25,Small,0.25
+13,Construct,"Dungeon, Urban",2.00,Large,2.0
+14,Monstrosity,"Forest, Mountain, Underground",2.00,Large,2.0
+15,Plant,Forest,3.00,Large,3.0
+16,Beast,"Forest, Plains",2.00,Large,2.0
+17,Beast,"Forest, Plains",0.25,Large,0.25
+18,Beast,"Forest, Plains, Water",0.13,Medium,0.13
+19,Beast,"Forest, Plains",0.50,Medium,0.5
+20,Monstrosity,"Forest, Mountain, Sky",21.00,Gargantuan,21.0
+21,Undead,"Dungeon, Sky",13.00,Huge,13.0
+22,Undead,"Dungeon, Sky",VARIES,Medium,0.0
+23,Plant,Forest,2.00,Huge,2.0
+24,Elemental,Cave,2.00,Medium,2.0
+25,Construct,"Dungeon, Urban",11.00,Gargantuan,11.0
+26,Aberration,"Dungeon, Underground",11.00,Large,11.0
+27,Monstrosity,"Forest, Mountain",5.00,Large,5.0
+28,Undead,"Dungeon, Sky",4.00,Medium,4.0
+29,Fiend,Hell,4.00,Large,4.0
+30,Monstrosity,"Forest, Mountain",3.00,Medium,3.0
+31,Monstrosity,"Forest, Mountain",11.00,Huge,11.0
+32,Aberration,"Dungeon, Underground",13.00,Large,13.0
+33,Aberration,"Dungeon, Sky, Underground",10.00,Large,10.0
+34,Undead,Dungeon,14.00,Large,14.0
+35,Aberration,"Dungeon, Sky, Underground",6.00,Medium,6.0
+36,Aberration,"Dungeon, Sky, Underground",0.50,Tiny,0.5
+37,Aberration,"Dungeon, Sky, Underground",3.00,Medium,3.0
+38,Aberration,"Dungeon, Sky, Underground",2.00,Medium,2.0
+39,Humanoid,"Forest, Plains, Urban",2.00,Medium,2.0
+40,Humanoid,"Forest, Plains, Urban",3.00,Medium,3.0
+41,Humanoid,Water,4.00,Medium,4.0
+42,Humanoid,"Forest, Plains, Urban",0.50,Medium,0.5
+43,Humanoid,"Forest, Plains, Urban",4.00,Medium,4.0
+44,Plant,Forest,0.25,Medium,0.25
+45,Plant,Forest,7.00,Huge,7.0
+46,Plant,Forest,0.13,Small,0.13
+47,Plant,Forest,0.50,Medium,0.5
+48,Undead,Dungeon,6.00,Medium,6.0
+49,Fey,"Forest, Plains",0.13,Small,0.13
+50,Undead,Dungeon,12.00,Large,12.0
+51,Humanoid,"Forest, Plains, Urban",1.00,Medium,1.0
+52,Monstrosity,"Forest, Mountain, Underground",5.00,Large,5.0
+53,Humanoid,"Forest, Plains, Urban, Water",0.25,Medium,0.25
+54,Construct,"Dungeon, Urban",14.00,Large,14.0
+55,Fiend,"Hell, Sky",5.00,Medium,5.0
+56,Monstrosity,"Forest, Mountain",2.00,Large,2.0
+57,Undead,Dungeon,6.00,Large,6.0
+58,Monstrosity,"Forest, Mountain, Sky",6.00,Large,6.0
+59,Monstrosity,"Forest, Mountain",0.50,Small,0.5
+60,Aberration,"Dungeon, Underground",1.00,Small,1.0
+61,Aberration,"Dungeon, Underground, Water",4.00,Large,4.0
+62,Elemental,"Cave, Water",0.00,Tiny,0.0
+63,Aberration,"Dungeon, Sky, Underground",8.00,Large,8.0
+64,Construct,"Dungeon, Underground, Urban",1.00,Medium,1.0
+65,Construct,"Dungeon, Urban",4.00,Medium,4.0
+66,Construct,"Dungeon, Urban",5.00,Medium,5.0
+67,Monstrosity,"Forest, Mountain, Sky",0.50,Small,0.5
+68,Plant,Forest,8.00,Large,8.0
+69,Celestial,"Plains, Sky",4.00,Medium,4.0
+70,Beast,"Forest, Plains",1.00,Large,1.0
+71,Beast,"Forest, Plains",0.00,Tiny,0.0
+72,Beast,"Forest, Plains",5.00,Medium,5.0
+73,Undead,Dungeon,0.00,Tiny,0.0
+74,Giant,"Forest, Plains",6.00,Huge,6.0
+75,Fey,"Forest, Plains",0.50,Small,0.5
+76,Fey,"Forest, Plains",2.00,Medium,2.0
+77,Undead,Dungeon,17.00,Medium,17.0
+78,Undead,Dungeon,4.00,Medium,4.0
+79,Undead,Dungeon,8.00,Medium,8.0
+80,Undead,Dungeon,3.00,Medium,3.0
+81,Monstrosity,"Forest, Mountain",4.00,Large,4.0
+82,Humanoid,"Forest, Plains, Urban, Water",3.00,Medium,3.0
+83,Undead,"Dungeon, Sky",18.00,Tiny,18.0
+84,Fiend,Hell,23.00,Huge,23.0
+85,Fiend,"Hell, Water",26.00,Huge,26.0
+86,Fiend,"Hell, Sky",23.00,Large,23.0
+87,Fiend Fiend,Hell,24.00,Large,24.0
+88,Fiend,"Hell, Sky",26.00,Huge,26.0
+89,Fiend,Hell,24.00,Huge,24.0
+90,Fiend,Hell,23.00,Large,23.0
+91,Fiend,Hell,0.25,Medium,0.25
+92,Fiend,Hell,11.00,Medium,11.0
+93,Fiend,Hell,7.00,Large,7.0
+94,Fiend,Hell,4.00,Medium,4.0
+95,Fiend,"Hell, Sky",19.00,Huge,19.0
+96,Fiend,Hell,5.00,Large,5.0
+97,Fiend,Hell,3.00,Medium,3.0
+98,Fiend,"Hell, Sky",6.00,Large,6.0
+99,Fiend,Hell,0.25,Small,0.25
+100,Fiend,"Hell, Sky",4.00,Medium,4.0
+101,Fiend,Hell,9.00,Large,9.0
+102,Fiend,Hell,17.00,Huge,17.0
+103,Fiend,Hell,8.00,Large,8.0
+104,Fiend,Hell,0.13,Small,0.13
+105,Fiend,Hell,16.00,Large,16.0
+106,Fiend,Hell,7.00,Medium,7.0
+107,Fiend,Hell,1.00,Medium,1.0
+108,Fiend,Hell,21.00,Huge,21.0
+109,Fiend,"Hell, Sky",15.00,Medium,15.0
+110,Fiend,"Hell, Sky",13.00,Large,13.0
+111,Fiend,Hell,1.00,Tiny,1.0
+112,Fiend,Hell,2.00,Medium,2.0
+113,Fiend,"Hell, Sky",18.00,Huge,18.0
+114,Fiend,"Hell, Water",13.00,Large,13.0
+115,Fiend,Hell,10.00,Medium,10.0
+116,Humanoid,"Forest, Plains, Urban",0.25,Small,0.25
+117,Humanoid,"Forest, Plains, Urban",3.00,Small,3.0
+118,Fiend,"Hell, Sky",7.00,Medium,7.0
+119,Fiend,"Hell, Sky",17.00,Medium,17.0
+120,Fiend,"Hell, Sky",19.00,Medium,19.0
+121,Fiend,"Hell, Sky",6.00,Medium,6.0
+122,Fiend,"Hell, Sky",18.00,Medium,18.0
+123,Fiend,Hell,19.00,Large,19.0
+124,Fiend,"Hell, Sky",22.00,Huge,22.0
+125,Fiend,"Hell, Sky",21.00,Large,21.0
+126,Fiend,Hell,21.00,Large,21.0
+127,Fiend,"Hell, Sky",16.00,Medium,16.0
+128,Fiend,"Hell, Sky",26.00,Large,26.0
+129,Fiend,Hell,5.00,Medium,5.0
+130,Fiend,"Hell, Sky",9.00,Large,9.0
+131,Fiend,Hell,8.00,Medium,8.0
+132,Fiend,"Hell, Sky",12.00,Medium,12.0
+133,Construct,"Dungeon, Urban",16.00,Huge,16.0
+134,Fiend,"Hell, Sky",11.00,Large,11.0
+135,Fiend,Hell,14.00,Large,14.0
+136,Fiend,"Hell, Sky",1.00,Tiny,1.0
+137,Fiend,Hell,0.00,Medium,0.0
+138,Fiend,Hell,13.00,Medium,13.0
+139,Fiend,Hell,0.50,Medium,0.5
+140,Fiend,Hell,10.00,Large,10.0
+141,Fiend,"Hell, Sky",20.00,Large,20.0
+142,Fiend,"Hell, Sky",2.00,Small,2.0
+143,Fiend,Hell,13.00,Large,13.0
+144,Beast,"Forest, Plains",3.00,Huge,3.0
+145,Beast,"Forest, Plains",5.00,Gargantuan,5.0
+146,Beast,"Forest, Plains",1.00,Medium,1.0
+147,Beast,"Forest, Plains, Water",0.25,Medium,0.25
+148,Beast,"Forest, Plains, Water",2.00,Large,2.0
+149,Beast,"Forest, Plains, Sky",0.25,Medium,0.25
+150,Beast,"Forest, Plains, Sky",2.00,Huge,2.0
+151,Beast,"Forest, Plains",4.00,Huge,4.0
+152,Beast,"Forest, Plains",5.00,Huge,5.0
+153,Beast,"Forest, Plains",8.00,Huge,8.0
+154,Beast,"Forest, Plains",0.25,Tiny,0.25
+155,Monstrosity,"Forest, Mountain",3.00,Large,3.0
+156,Undead,Dungeon,TEMP,Temp,0.0
+157,Dragon,"Mountain, Sky, Water",14.00,Huge,14.0
+158,Dragon,"Mountain, Sky, Water",21.00,Gargantuan,21.0
+159,Dragon,"Mountain, Sky, Water",2.00,Medium,2.0
+160,Dragon,"Mountain, Sky, Water",7.00,Large,7.0
+161,Dragon,"Mountain, Sky, Underground",16.00,Huge,16.0
+162,Dragon,"Mountain, Sky, Underground",23.00,Gargantuan,23.0
+163,Dragon,"Mountain, Sky, Underground",3.00,Medium,3.0
+164,Dragon,"Mountain, Sky, Underground",9.00,Large,9.0
+165,Dragon,"Mountain, Sky, Water",15.00,Huge,15.0
+166,Dragon,"Mountain, Sky, Water",22.00,Gargantuan,22.0
+167,Dragon,"Mountain, Sky, Water",8.00,Large,8.0
+168,Dragon,"Mountain, Sky",17.00,Huge,17.0
+169,Dragon,"Mountain, Sky",24.00,Gargantuan,24.0
+170,Dragon,"Mountain, Sky",4.00,Medium,4.0
+171,Dragon,"Mountain, Sky",10.00,Large,10.0
+172,Dragon,"Mountain, Sky, Underground, Water",13.00,Huge,13.0
+173,Dragon,"Mountain, Sky, Underground, Water",20.00,Gargantuan,20.0
+174,Dragon,"Mountain, Sky, Underground, Water",2.00,Medium,2.0
+175,Dragon,"Mountain, Sky, Underground, Water",6.00,Large,6.0
+176,Dragon,"Mountain, Sky, Underground",13.00,Huge,13.0
+177,Dragon,"Mountain, Sky, Underground",20.00,Gargantuan,20.0
+178,Dragon,"Mountain, Sky, Underground",1.00,Medium,1.0
+179,Dragon,"Mountain, Sky, Underground",6.00,Large,6.0
+180,Dragon,"Mountain, Sky",14.00,Huge,14.0
+181,Dragon,"Mountain, Sky",21.00,Gargantuan,21.0
+182,Dragon,"Mountain, Sky",1.00,Medium,1.0
+183,Dragon,"Mountain, Sky",7.00,Large,7.0
+184,Dragon,"Mountain, Sky, Water",17.00,Huge,17.0
+185,Dragon,"Mountain, Sky, Water",24.00,Gargantuan,24.0
+186,Dragon,"Mountain, Sky, Water",3.00,Medium,3.0
+187,Dragon,"Mountain, Sky, Water",10.00,Large,10.0
+188,Dragon,"Mountain, Sky",16.00,Huge,16.0
+189,Dragon,"Mountain, Sky",23.00,Gargantuan,23.0
+190,Dragon,"Mountain, Sky",2.00,Medium,2.0
+191,Dragon,"Mountain, Sky",9.00,Large,9.0
+192,Dragon,"Mountain, Sky, Water",17.00,Gargantuan,17.0
+193,Humanoid,"Mountain, Sky",1.00,Medium,1.0
+194,Humanoid,"Mountain, Sky",5.00,Medium,5.0
+195,Humanoid,"Mountain, Sky",7.00,Medium,7.0
+196,Humanoid,"Mountain, Sky",2.00,Medium,2.0
+197,Undead,Dungeon,1.00,Medium,1.0
+198,Monstrosity,"Forest, Mountain",6.00,Large,6.0
+199,Humanoid,"Forest, Plains, Urban",13.00,Medium,13.0
+200,Humanoid,"Forest, Plains, Urban",5.00,Medium,5.0
+201,Humanoid,"Forest, Plains, Urban",18.00,Medium,18.0
+202,Humanoid,"Forest, Plains, Urban",9.00,Medium,9.0
+203,Humanoid,"Forest, Plains, Urban",14.00,Medium,14.0
+204,Humanoid,"Forest, Plains, Urban",7.00,Medium,7.0
+205,Humanoid,"Forest, Plains, Urban",20.00,Medium,20.0
+206,Humanoid,"Forest, Plains, Urban",8.00,Medium,8.0
+207,Humanoid,"Forest, Plains, Urban",11.00,Medium,11.0
+208,Fey,"Forest, Plains",1.00,Medium,1.0
+209,Humanoid,"Forest, Plains, Urban",12.00,Medium,12.0
+210,Construct,"Dungeon, Urban",3.00,Medium,3.0
+211,Humanoid,"Forest, Plains, Urban",6.00,Medium,6.0
+212,Monstrosity,"Forest, Mountain, Sky",1.00,Large,1.0
+213,Undead,"Dungeon, Sky",12.00,Medium,12.0
+214,Construct,"Dungeon, Urban",12.00,Large,12.0
+215,Fey,"Forest, Plains",10.00,Medium,10.0
+216,Elemental,"Cave, Sky",23.00,Gargantuan,23.0
+217,Elemental,"Cave, Water",20.00,Gargantuan,20.0
+218,Elemental,"Cave, Sky",16.00,Gargantuan,16.0
+219,Elemental,"Cave, Water",22.00,Gargantuan,22.0
+220,Elemental,"Cave, Sky",7.00,Medium,7.0
+221,Elemental,Cave,7.00,Medium,7.0
+222,Elemental,Water,7.00,Medium,7.0
+223,Elemental,"Cave, Sky",5.00,Large,5.0
+224,Elemental,"Cave, Underground",5.00,Large,5.0
+225,Elemental,Cave,5.00,Large,5.0
+226,Elemental,Water,5.00,Large,5.0
+227,Celestial,"Plains, Sky, Water",23.00,Huge,23.0
+228,Monstrosity,"Forest, Mountain",2.00,Medium,2.0
+229,Giant,"Forest, Plains",4.00,Large,4.0
+230,Dragon,"Mountain, Sky",1.00,Tiny,1.0
+231,Elemental,Cave,3.00,Large,3.0
+232,Undead,"Dungeon, Sky",4.00,Tiny,4.0
+233,Aberration,"Dungeon, Sky, Underground",0.13,Small,0.13
+234,Beast,"Forest, Plains, Sky",0.00,Small,0.0
+235,Giant,"Forest, Plains",8.00,Huge,8.0
+236,Monstrosity,"Forest, Mountain, Water",10.00,Huge,10.0
+237,Plant,"Forest, Sky",0.50,Large,0.5
+238,Plant,Forest,0.00,Medium,0.0
+239,Elemental,Cave,6.00,Medium,6.0
+240,Elemental,"Cave, Sky",2.00,Medium,2.0
+241,Elemental,"Cave, Sky",10.00,Large,10.0
+242,Elemental,"Cave, Sky, Underground",11.00,Large,11.0
+243,Elemental,"Cave, Sky",11.00,Large,11.0
+244,Elemental,"Cave, Sky, Water",11.00,Large,11.0
+245,Elemental,Cave,0.25,Small,0.25
+246,Undead,Dungeon,2.00,Medium,2.0
+247,Beast,"Forest, Plains, Sky",0.00,Large,0.0
+248,Beast,"Forest, Plains, Water",3.00,Large,3.0
+249,Monstrosity,"Forest, Mountain",1.00,Large,1.0
+250,Beast,"Forest, Plains, Water",4.00,Huge,4.0
+251,Giant,"Forest, Plains",9.00,Huge,9.0
+252,Giant,"Forest, Plains",11.00,Huge,11.0
+253,Giant,"Forest, Plains",14.00,Huge,14.0
+254,Giant,"Forest, Plains",12.00,Huge,12.0
+255,Giant,"Forest, Plains",5.00,Huge,5.0
+256,Giant,"Forest, Plains",7.00,Huge,7.0
+257,Giant,"Forest, Plains",10.00,Huge,10.0
+258,Giant,"Forest, Plains, Water",13.00,Huge,13.0
+259,Giant,"Forest, Plains, Sky, Water",16.00,Huge,16.0
+260,Aberration,"Dungeon, Underground, Water",2.00,Medium,2.0
+261,Humanoid,"Forest, Plains, Urban",10.00,Medium,10.0
+262,Humanoid,"Forest, Plains, Urban",16.00,Medium,16.0
+263,Undead,Dungeon,0.25,Medium,0.25
+264,Humanoid,"Forest, Plains, Urban",0.50,Small,0.5
+265,Humanoid,"Forest, Plains, Urban",1.00,Small,1.0
+266,Construct,"Dungeon, Urban",9.00,Large,9.0
+267,Construct,"Dungeon, Urban",16.00,Large,16.0
+268,Construct,"Dungeon, Urban",10.00,Large,10.0
+269,Monstrosity,"Forest, Mountain",12.00,Large,12.0
+270,Monstrosity,"Forest, Mountain",7.00,Medium,7.0
+271,Monstrosity,"Forest, Mountain, Sky",2.00,Large,2.0
+272,Humanoid,"Forest, Plains, Urban",2.00,Small,2.0
+273,Fey,"Forest, Plains",6.00,Large,6.0
+274,Fey,"Forest, Plains",7.00,Medium,7.0
+275,Fey,"Forest, Plains",3.00,Medium,3.0
+276,Fey,Water,2.00,Medium,2.0
+277,Temp,"Mountain, Sky",TEMP,Temp,0.0
+278,Monstrosity,"Forest, Mountain, Sky",1.00,Medium,1.0
+279,Construct,"Dungeon, Sky, Urban",4.00,Medium,4.0
+280,Construct,"Dungeon, Sky, Urban",0.00,Tiny,0.0
+281,Humanoid,"Forest, Plains, Urban",0.13,Medium,0.13
+282,Beast,"Forest, Plains, Water",5.00,Huge,5.0
+283,Monstrosity,"Forest, Mountain, Water",8.00,Huge,8.0
+284,Construct,"Dungeon, Sky, Urban",25.00,Large,25.0
+285,Aberration,"Dungeon, Underground",2.00,Tiny,2.0
+286,Elemental,"Cave, Sky",6.00,Medium,6.0
+287,Aberration,"Dungeon, Underground, Water",0.25,Small,0.25
+288,Beast,"Forest, Plains",0.50,Large,0.5
+289,Monstrosity,"Forest, Mountain, Water",3.00,Large,3.0
+290,Plant,"Forest, Water",4.00,Medium,4.0
+291,Celestial,"Plains, Sky",12.00,Huge,12.0
+292,Humanoid,"Forest, Plains, Urban",0.13,Small,0.13
+293,Humanoid,"Mountain, Sky",1.00,Small,1.0
+294,Humanoid,"Forest, Plains, Sky, Urban",0.25,Small,0.25
+295,Fey,"Forest, Plains, Underground",7.00,Small,7.0
+296,Monstrosity,Water,23.00,Gargantuan,23.0
+297,Monstrosity,Water,10.00,Huge,10.0
+298,Monstrosity,"Forest, Mountain, Underground",2.00,Medium,2.0
+299,Monstrosity,"Forest, Mountain, Underground",0.13,Small,0.13
+300,Humanoid,"Forest, Plains, Urban, Water",6.00,Medium,6.0
+301,Humanoid,"Forest, Plains, Urban, Water",1.00,Medium,1.0
+302,Undead,Dungeon,21.00,Medium,21.0
+303,Humanoid,"Forest, Plains, Urban, Water",4.00,Medium,4.0
+304,Humanoid,"Forest, Plains, Urban, Water",0.50,Medium,0.5
+305,Humanoid,"Forest, Plains, Urban, Water",2.00,Medium,2.0
+306,Humanoid Humanoid,"Forest, Plains, Urban",2.00,Medium,2.0
+307,Elemental,Cave,0.50,Small,0.5
+308,Monstrosity,"Forest, Mountain, Sky",3.00,Large,3.0
+309,Plant,Forest,1.00,Large,1.0
+310,Monstrosity,"Forest, Mountain",6.00,Medium,6.0
+311,Fey,"Forest, Plains",2.00,Small,2.0
+312,Elemental,"Cave, Sky",0.50,Small,0.5
+313,Elemental,"Cave, Sky, Water",0.25,Small,0.25
+314,Elemental,"Cave, Sky",0.25,Small,0.25
+315,Humanoid,Water,0.13,Medium,0.13
+316,Monstrosity,"Forest, Mountain, Water",2.00,Large,2.0
+317,Aberration,"Dungeon, Underground",7.00,Medium,7.0
+318,Undead,Dungeon,22.00,Medium,22.0
+319,Undead,Dungeon,10.00,Medium,10.0
+320,Aberration,"Dungeon, Underground, Water",14.00,Large,14.0
+321,Aberration,"Dungeon, Underground",9.00,Large,9.0
+322,Aberration,"Dungeon, Sky, Underground",5.00,Large,5.0
+323,Plant,Forest,0.00,Small,0.0
+324,Beast,"Forest, Plains, Underground",0.00,Tiny,0.0
+325,Beast,"Forest, Plains, Sky",0.00,Tiny,0.0
+326,Fey,"Forest, Plains",0.25,Medium,0.25
+327,Beast,"Forest, Plains, Sky",0.13,Small,0.13
+328,Beast,"Forest, Plains",0.25,Medium,0.25
+329,Beast,"Forest, Plains",0.13,Large,0.13
+330,Beast,"Forest, Plains, Water",0.25,Large,0.25
+331,Beast,"Forest, Plains, Water",0.00,Tiny,0.0
+332,Beast,"Forest, Plains, Water",0.50,Large,0.5
+333,Monstrosity,"Forest, Mountain",1.00,Medium,1.0
+334,Beast,"Forest, Plains",0.00,Medium,0.0
+335,Beast,"Forest, Plains, Sky, Water",0.13,Tiny,0.13
+336,Beast,"Forest, Plains",7.00,Huge,7.0
+337,Beast,"Forest, Plains, Underground",0.25,Medium,0.25
+338,Beast,"Forest, Plains, Sky",0.25,Large,0.25
+339,Beast,"Forest, Plains",0.25,Small,0.25
+340,Beast,"Forest, Plains, Water",2.00,Huge,2.0
+341,Beast,"Forest, Plains, Sky",1.00,Large,1.0
+342,Beast,"Forest, Plains",2.00,Huge,2.0
+343,Beast,"Forest, Plains, Water",1.00,Large,1.0
+344,Beast,"Forest, Plains",0.13,Small,0.13
+345,Beast,"Forest, Plains",3.00,Large,3.0
+346,Beast,Water,0.50,Large,0.5
+347,Beast,Water,5.00,Huge,5.0
+348,Beast,"Forest, Plains, Sky",0.50,Medium,0.5
+349,Beast,"Forest, Plains",0.13,Medium,0.13
+350,Beast,Water,2.00,Large,2.0
+351,Beast,"Forest, Plains, Water",3.00,Huge,3.0
+352,Beast,"Forest, Plains",6.00,Huge,6.0
+353,Beast,"Forest, Plains, Water",0.00,Small,0.0
+354,Beast,"Forest, Plains, Water",0.13,Tiny,0.13
+355,Beast,Water,0.50,Medium,0.5
+356,Beast,Water,0.00,Tiny,0.0
+357,Beast,"Forest, Plains, Water",2.00,Medium,2.0
+358,Beast,"Forest, Plains, Water",1.00,Medium,1.0
+359,Beast,"Forest, Plains, Sky",0.00,Medium,0.0
+360,Monstrosity,"Forest, Mountain",0.50,Large,0.5
+361,Construct,"Dungeon, Urban",0.25,Medium,0.25
+362,Construct,"Dungeon, Sky, Urban",0.13,Medium,0.13
+363,Construct,"Dungeon, Sky, Urban",1.00,Medium,1.0
+364,Construct,"Dungeon, Urban",0.50,Medium,0.5
+365,Aberration,"Dungeon, Underground, Water",11.00,Medium,11.0
+366,Undead,Dungeon,15.00,Medium,15.0
+367,Plant,Forest,2.00,Large,2.0
+368,Undead,Dungeon,11.00,Medium,11.0
+369,Undead,Dungeon,4.00,Large,4.0
+370,Monstrosity,"Forest, Mountain",10.00,Large,10.0
+371,Monstrosity,"Forest, Mountain",8.00,Large,8.0
+372,Humanoid,"Forest, Plains, Urban",17.00,Medium,17.0
+373,Aberration,"Dungeon, Underground",3.00,Small,3.0
+374,Aberration,"Dungeon, Underground",0.13,Tiny,0.13
+375,Aberration,"Dungeon, Underground",4.00,Medium,4.0
+376,Aberration,"Dungeon, Underground",13.00,Gargantuan,13.0
+377,Fey,"Forest, Plains, Water",2.00,Medium,2.0
+378,Fiend,"Hell, Sky",3.00,Large,3.0
+379,Undead,"Dungeon, Sky",20.00,Huge,20.0
+380,Aberration,"Dungeon, Underground",2.00,Medium,2.0
+381,Humanoid,"Forest, Plains, Urban",0.00,Medium,0.0
+382,Humanoid,Water,5.00,Medium,5.0
+383,Ooze,"Cave, Dungeon",0.25,Tiny,0.25
+384,Ooze,"Cave, Dungeon",5.00,Medium,5.0
+385,Ooze,"Cave, Dungeon",10.00,Huge,10.0
+386,Giant,"Forest, Plains",2.00,Large,2.0
+387,Giant,"Forest, Plains",3.00,Large,3.0
+388,Giant,"Forest, Plains",1.00,Large,1.0
+389,Giant,"Forest, Plains, Sky",7.00,Large,7.0
+390,Undead,Dungeon,10.00,Huge,10.0
+391,Ooze,"Cave, Dungeon",4.00,Large,4.0
+392,Ooze,"Cave, Dungeon",2.00,Large,2.0
+393,Ooze,"Cave, Dungeon",0.50,Medium,0.5
+394,Aberration,"Dungeon, Underground",5.00,Large,5.0
+395,Monstrosity,"Forest, Plains",3.00,Large,3.0
+396,Celestial,"Plains, Sky",2.00,Large,2.0
+397,Monstrosity,"Forest, Mountain, Sky",2.00,Medium,2.0
+398,Monstrosity,"Forest, Mountain",0.50,Medium,0.5
+399,Fey,"Forest, Plains, Sky",0.25,Tiny,0.25
+400,Elemental,"Cave, Sky",19.00,Huge,19.0
+401,Elemental,"Cave, Underground",20.00,Gargantuan,20.0
+402,Elemental,"Cave, Water",18.00,Huge,18.0
+403,Elemental,"Cave, Sky",18.00,Huge,18.0
+404,Dragon,"Mountain, Sky",0.25,Tiny,0.25
+405,Monstrosity,"Forest, Mountain, Underground",15.00,Gargantuan,15.0
+406,Fey,"Forest, Plains",1.00,Tiny,1.0
+407,Fey,"Forest, Plains",3.00,Small,3.0
+408,Monstrosity,"Forest, Mountain, Underground",11.00,Huge,11.0
+409,Undead,Dungeon,5.00,Medium,5.0
+410,Monstrosity,"Forest, Mountain, Sky",11.00,Gargantuan,11.0
+411,Humanoid,Water,0.50,Medium,0.5
+412,Humanoid,Water,5.00,Large,5.0
+413,Humanoid,Water,2.00,Medium,2.0
+414,Elemental,Cave,1.00,Medium,1.0
+415,Elemental,"Cave, Underground",9.00,Huge,9.0
+416,Fey,"Forest, Plains",0.50,Medium,0.5
+417,Monstrosity,Water,5.00,Large,5.0
+418,Humanoid,Water,1.00,Medium,1.0
+419,Undead,Dungeon,0.50,Medium,0.5
+420,Dragon,"Mountain, Sky",13.00,Varies,13.0
+421,Plant,"Forest, Water",5.00,Large,5.0
+422,Construct,"Dungeon, Urban",7.00,Large,7.0
+423,Fey,"Forest, Plains, Water",3.00,Medium,3.0
+424,Undead,Dungeon,7.00,Huge,7.0
+425,Undead,Dungeon,2.00,Large,2.0
+426,Undead,Dungeon,0.50,Large,0.5
+427,Aberration,"Dungeon, Underground",7.00,Large,7.0
+428,Aberration,"Dungeon, Underground",10.00,Medium,10.0
+429,Aberration,"Dungeon, Underground",9.00,Medium,9.0
+430,Aberration,"Dungeon, Underground",8.00,Large,8.0
+431,Ooze,"Cave, Dungeon, Water",3.00,Medium,3.0
+432,Monstrosity,"Forest, Mountain",13.00,Medium,13.0
+433,Monstrosity,"Forest, Mountain",11.00,Medium,11.0
+434,Monstrosity,"Forest, Mountain",9.00,Medium,9.0
+435,Monstrosity,"Forest, Mountain",0.25,Small,0.25
+436,Undead,"Dungeon, Sky",1.00,Medium,1.0
+437,Monstrosity,"Forest, Mountain, Sky",17.00,Large,17.0
+438,Monstrosity,"Forest, Mountain, Sky",11.00,Large,11.0
+439,Plant,Forest,TEMP,Temp,0.0
+440,Aberration,"Dungeon, Underground",0.25,Small,0.25
+441,Aberration,"Dungeon, Underground",10.00,Large,10.0
+442,Aberration,"Dungeon, Underground",16.00,Medium,16.0
+443,Aberration,"Dungeon, Underground",5.00,Medium,5.0
+444,Aberration,"Dungeon, Underground",13.00,Medium,13.0
+445,Monstrosity,"Forest, Mountain",0.25,Medium,0.25
+446,Beast,"Forest, Plains, Sky",0.13,Tiny,0.13
+447,Construct,"Dungeon, Urban",6.00,Medium,6.0
+448,Monstrosity,"Forest, Mountain",30.00,Gargantuan,30.0
+449,Plant,Forest,0.50,Large,0.5
+450,Plant,Forest,1.00,Medium,1.0
+451,Fiend,"Hell, Sky",30.00,Gargantuan,30.0
+452,Construct,"Dungeon, Urban",1.00,Tiny,1.0
+453,Undead,Dungeon,0.50,Small,0.5
+454,Plant,Forest,9.00,Huge,9.0
+455,Giant,"Forest, Plains",5.00,Large,5.0
+456,Giant,"Forest, Plains",13.00,Huge,13.0
+457,Giant,"Forest, Plains",9.00,Large,9.0
+458,Giant,"Forest, Plains",11.00,Large,11.0
+459,Giant,"Forest, Plains",7.00,Large,7.0
+460,Celestial,"Plains, Sky",5.00,Large,5.0
+461,Undead,Dungeon,13.00,Medium,13.0
+462,Undead,"Dungeon, Sky",3.00,Medium,3.0
+463,Plant,Forest,0.25,Small,0.25
+464,Plant,Forest,2.00,Small,2.0
+465,Elemental,Water,3.00,Large,3.0
+466,Ooze,"Cave, Dungeon",10.00,Gargantuan,10.0
+467,Undead,"Dungeon, Sky",2.00,Tiny,2.0
+468,Plant,Forest,5.00,Medium,5.0
+469,Dragon,"Mountain, Sky",6.00,Large,6.0
+470,Elemental,"Cave, Underground",5.00,Medium,5.0
+471,Plant,Forest,2.00,Medium,2.0
+472,Fey,"Forest, Plains, Sky",4.00,Large,4.0
+473,Monstrosity,"Forest, Mountain",9.00,Huge,9.0
+474,Monstrosity,"Forest, Mountain",7.00,Large,7.0
+475,Monstrosity Monstrosity,"Forest, Mountain, Water",12.00,Huge,12.0
+476,Monstrosity Monstrosity,"Forest, Mountain",4.00,Medium,4.0
+477,Monstrosity Monstrosity,"Forest, Mountain",5.00,Medium,5.0
+478,Fiend,"Hell, Water",9.00,Medium,9.0
+479,Fiend,"Hell, Water",3.00,Medium,3.0
+480,Fiend,Hell,12.00,Medium,12.0
+481,Fiend,"Hell, Sky",13.00,Medium,13.0
+482,Fiend,Hell,11.00,Large,11.0
+483,Undead,Dungeon,3.00,Huge,3.0
+484,Undead,"Dungeon, Sky",5.00,Large,5.0
+485,Undead,Dungeon,3.00,Large,3.0
+486,Undead,Dungeon,8.00,Huge,8.0
+487,Plant,Forest,0.13,Medium,0.13
