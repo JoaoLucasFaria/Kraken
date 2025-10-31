@@ -1,488 +1,803 @@
-MonsterID,Type,Size,Environment,CR,CR_float
-1,Humanoid,Medium,"Forest, Plains, Sky, Urban",0.25,0.25
-2,Aberration,Large,"Dungeon, Underground, Water",10.00,10.0
-3,Humanoid,Medium,"Forest, Plains, Urban",0.25,0.25
-4,Monstrosity,Medium,"Forest, Mountain, Water",1.00,1.0
-5,Undead,Medium,"Dungeon, Sky",5.00,5.0
-6,Beast,Small,"Forest, Plains",0.00,0.0
-7,Dragon,Medium,"Mountain, Sky",0.50,0.5
-8,Celestial,Medium,"Plains, Sky",10.00,10.0
-9,Celestial,Large,"Plains, Sky",16.00,16.0
-10,Celestial,Large,"Plains, Sky",21.00,21.0
-11,Construct,Medium,"Dungeon, Urban",1.00,1.0
-12,Construct,Small,"Dungeon, Sky, Urban",0.25,0.25
-13,Construct,Large,"Dungeon, Urban",2.00,2.0
-14,Monstrosity,Large,"Forest, Mountain, Underground",2.00,2.0
-15,Plant,Large,Forest,3.00,3.0
-16,Beast,Large,"Forest, Plains",2.00,2.0
-17,Beast,Large,"Forest, Plains",0.25,0.25
-18,Beast,Medium,"Forest, Plains, Water",0.13,0.13
-19,Beast,Medium,"Forest, Plains",0.50,0.5
-20,Monstrosity,Gargantuan,"Forest, Mountain, Sky",21.00,21.0
-21,Undead,Huge,"Dungeon, Sky",13.00,13.0
-22,Undead,Medium,"Dungeon, Sky",VARIES,0.0
-23,Plant,Huge,Forest,2.00,2.0
-24,Elemental,Medium,Cave,2.00,2.0
-25,Construct,Gargantuan,"Dungeon, Urban",11.00,11.0
-26,Aberration,Large,"Dungeon, Underground",11.00,11.0
-27,Monstrosity,Large,"Forest, Mountain",5.00,5.0
-28,Undead,Medium,"Dungeon, Sky",4.00,4.0
-29,Fiend,Large,Hell,4.00,4.0
-30,Monstrosity,Medium,"Forest, Mountain",3.00,3.0
-31,Monstrosity,Huge,"Forest, Mountain",11.00,11.0
-32,Aberration,Large,"Dungeon, Underground",13.00,13.0
-33,Aberration,Large,"Dungeon, Sky, Underground",10.00,10.0
-34,Undead,Large,Dungeon,14.00,14.0
-35,Aberration,Medium,"Dungeon, Sky, Underground",6.00,6.0
-36,Aberration,Tiny,"Dungeon, Sky, Underground",0.50,0.5
-37,Aberration,Medium,"Dungeon, Sky, Underground",3.00,3.0
-38,Aberration,Medium,"Dungeon, Sky, Underground",2.00,2.0
-39,Humanoid,Medium,"Forest, Plains, Urban",2.00,2.0
-40,Humanoid,Medium,"Forest, Plains, Urban",3.00,3.0
-41,Humanoid,Medium,Water,4.00,4.0
-42,Humanoid,Medium,"Forest, Plains, Urban",0.50,0.5
-43,Humanoid,Medium,"Forest, Plains, Urban",4.00,4.0
-44,Plant,Medium,Forest,0.25,0.25
-45,Plant,Huge,Forest,7.00,7.0
-46,Plant,Small,Forest,0.13,0.13
-47,Plant,Medium,Forest,0.50,0.5
-48,Undead,Medium,Dungeon,6.00,6.0
-49,Fey,Small,"Forest, Plains",0.13,0.13
-50,Undead,Large,Dungeon,12.00,12.0
-51,Humanoid,Medium,"Forest, Plains, Urban",1.00,1.0
-52,Monstrosity,Large,"Forest, Mountain, Underground",5.00,5.0
-53,Humanoid,Medium,"Forest, Plains, Urban, Water",0.25,0.25
-54,Construct,Large,"Dungeon, Urban",14.00,14.0
-55,Fiend,Medium,"Hell, Sky",5.00,5.0
-56,Monstrosity,Large,"Forest, Mountain",2.00,2.0
-57,Undead,Large,Dungeon,6.00,6.0
-58,Monstrosity,Large,"Forest, Mountain, Sky",6.00,6.0
-59,Monstrosity,Small,"Forest, Mountain",0.50,0.5
-60,Aberration,Small,"Dungeon, Underground",1.00,1.0
-61,Aberration,Large,"Dungeon, Underground, Water",4.00,4.0
-62,Elemental,Tiny,"Cave, Water",0.00,0.0
-63,Aberration,Large,"Dungeon, Sky, Underground",8.00,8.0
-64,Construct,Medium,"Dungeon, Underground, Urban",1.00,1.0
-65,Construct,Medium,"Dungeon, Urban",4.00,4.0
-66,Construct,Medium,"Dungeon, Urban",5.00,5.0
-67,Monstrosity,Small,"Forest, Mountain, Sky",0.50,0.5
-68,Plant,Large,Forest,8.00,8.0
-69,Celestial,Medium,"Plains, Sky",4.00,4.0
-70,Beast,Large,"Forest, Plains",1.00,1.0
-71,Beast,Tiny,"Forest, Plains",0.00,0.0
-72,Beast,Medium,"Forest, Plains",5.00,5.0
-73,Undead,Tiny,Dungeon,0.00,0.0
-74,Giant,Huge,"Forest, Plains",6.00,6.0
-75,Fey,Small,"Forest, Plains",0.50,0.5
-76,Fey,Medium,"Forest, Plains",2.00,2.0
-77,Undead,Medium,Dungeon,17.00,17.0
-78,Undead,Medium,Dungeon,4.00,4.0
-79,Undead,Medium,Dungeon,8.00,8.0
-80,Undead,Medium,Dungeon,3.00,3.0
-81,Monstrosity,Large,"Forest, Mountain",4.00,4.0
-82,Humanoid,Medium,"Forest, Plains, Urban, Water",3.00,3.0
-83,Undead,Tiny,"Dungeon, Sky",18.00,18.0
-84,Fiend,Huge,Hell,23.00,23.0
-85,Fiend,Huge,"Hell, Water",26.00,26.0
-86,Fiend,Large,"Hell, Sky",23.00,23.0
-87,Fiend Fiend,Large,Hell,24.00,24.0
-88,Fiend,Huge,"Hell, Sky",26.00,26.0
-89,Fiend,Huge,Hell,24.00,24.0
-90,Fiend,Large,Hell,23.00,23.0
-91,Fiend,Medium,Hell,0.25,0.25
-92,Fiend,Medium,Hell,11.00,11.0
-93,Fiend,Large,Hell,7.00,7.0
-94,Fiend,Medium,Hell,4.00,4.0
-95,Fiend,Huge,"Hell, Sky",19.00,19.0
-96,Fiend,Large,Hell,5.00,5.0
-97,Fiend,Medium,Hell,3.00,3.0
-98,Fiend,Large,"Hell, Sky",6.00,6.0
-99,Fiend,Small,Hell,0.25,0.25
-100,Fiend,Medium,"Hell, Sky",4.00,4.0
-101,Fiend,Large,Hell,9.00,9.0
-102,Fiend,Huge,Hell,17.00,17.0
-103,Fiend,Large,Hell,8.00,8.0
-104,Fiend,Small,Hell,0.13,0.13
-105,Fiend,Large,Hell,16.00,16.0
-106,Fiend,Medium,Hell,7.00,7.0
-107,Fiend,Medium,Hell,1.00,1.0
-108,Fiend,Huge,Hell,21.00,21.0
-109,Fiend,Medium,"Hell, Sky",15.00,15.0
-110,Fiend,Large,"Hell, Sky",13.00,13.0
-111,Fiend,Tiny,Hell,1.00,1.0
-112,Fiend,Medium,Hell,2.00,2.0
-113,Fiend,Huge,"Hell, Sky",18.00,18.0
-114,Fiend,Large,"Hell, Water",13.00,13.0
-115,Fiend,Medium,Hell,10.00,10.0
-116,Humanoid,Small,"Forest, Plains, Urban",0.25,0.25
-117,Humanoid,Small,"Forest, Plains, Urban",3.00,3.0
-118,Fiend,Medium,"Hell, Sky",7.00,7.0
-119,Fiend,Medium,"Hell, Sky",17.00,17.0
-120,Fiend,Medium,"Hell, Sky",19.00,19.0
-121,Fiend,Medium,"Hell, Sky",6.00,6.0
-122,Fiend,Medium,"Hell, Sky",18.00,18.0
-123,Fiend,Large,Hell,19.00,19.0
-124,Fiend,Huge,"Hell, Sky",22.00,22.0
-125,Fiend,Large,"Hell, Sky",21.00,21.0
-126,Fiend,Large,Hell,21.00,21.0
-127,Fiend,Medium,"Hell, Sky",16.00,16.0
-128,Fiend,Large,"Hell, Sky",26.00,26.0
-129,Fiend,Medium,Hell,5.00,5.0
-130,Fiend,Large,"Hell, Sky",9.00,9.0
-131,Fiend,Medium,Hell,8.00,8.0
-132,Fiend,Medium,"Hell, Sky",12.00,12.0
-133,Construct,Huge,"Dungeon, Urban",16.00,16.0
-134,Fiend,Large,"Hell, Sky",11.00,11.0
-135,Fiend,Large,Hell,14.00,14.0
-136,Fiend,Tiny,"Hell, Sky",1.00,1.0
-137,Fiend,Medium,Hell,0.00,0.0
-138,Fiend,Medium,Hell,13.00,13.0
-139,Fiend,Medium,Hell,0.50,0.5
-140,Fiend,Large,Hell,10.00,10.0
-141,Fiend,Large,"Hell, Sky",20.00,20.0
-142,Fiend,Small,"Hell, Sky",2.00,2.0
-143,Fiend,Large,Hell,13.00,13.0
-144,Beast,Huge,"Forest, Plains",3.00,3.0
-145,Beast,Gargantuan,"Forest, Plains",5.00,5.0
-146,Beast,Medium,"Forest, Plains",1.00,1.0
-147,Beast,Medium,"Forest, Plains, Water",0.25,0.25
-148,Beast,Large,"Forest, Plains, Water",2.00,2.0
-149,Beast,Medium,"Forest, Plains, Sky",0.25,0.25
-150,Beast,Huge,"Forest, Plains, Sky",2.00,2.0
-151,Beast,Huge,"Forest, Plains",4.00,4.0
-152,Beast,Huge,"Forest, Plains",5.00,5.0
-153,Beast,Huge,"Forest, Plains",8.00,8.0
-154,Beast,Tiny,"Forest, Plains",0.25,0.25
-155,Monstrosity,Large,"Forest, Mountain",3.00,3.0
-156,Undead,Temp,Dungeon,TEMP,0.0
-157,Dragon,Huge,"Mountain, Sky, Water",14.00,14.0
-158,Dragon,Gargantuan,"Mountain, Sky, Water",21.00,21.0
-159,Dragon,Medium,"Mountain, Sky, Water",2.00,2.0
-160,Dragon,Large,"Mountain, Sky, Water",7.00,7.0
-161,Dragon,Huge,"Mountain, Sky, Underground",16.00,16.0
-162,Dragon,Gargantuan,"Mountain, Sky, Underground",23.00,23.0
-163,Dragon,Medium,"Mountain, Sky, Underground",3.00,3.0
-164,Dragon,Large,"Mountain, Sky, Underground",9.00,9.0
-165,Dragon,Huge,"Mountain, Sky, Water",15.00,15.0
-166,Dragon,Gargantuan,"Mountain, Sky, Water",22.00,22.0
-167,Dragon,Large,"Mountain, Sky, Water",8.00,8.0
-168,Dragon,Huge,"Mountain, Sky",17.00,17.0
-169,Dragon,Gargantuan,"Mountain, Sky",24.00,24.0
-170,Dragon,Medium,"Mountain, Sky",4.00,4.0
-171,Dragon,Large,"Mountain, Sky",10.00,10.0
-172,Dragon,Huge,"Mountain, Sky, Underground, Water",13.00,13.0
-173,Dragon,Gargantuan,"Mountain, Sky, Underground, Water",20.00,20.0
-174,Dragon,Medium,"Mountain, Sky, Underground, Water",2.00,2.0
-175,Dragon,Large,"Mountain, Sky, Underground, Water",6.00,6.0
-176,Dragon,Huge,"Mountain, Sky, Underground",13.00,13.0
-177,Dragon,Gargantuan,"Mountain, Sky, Underground",20.00,20.0
-178,Dragon,Medium,"Mountain, Sky, Underground",1.00,1.0
-179,Dragon,Large,"Mountain, Sky, Underground",6.00,6.0
-180,Dragon,Huge,"Mountain, Sky",14.00,14.0
-181,Dragon,Gargantuan,"Mountain, Sky",21.00,21.0
-182,Dragon,Medium,"Mountain, Sky",1.00,1.0
-183,Dragon,Large,"Mountain, Sky",7.00,7.0
-184,Dragon,Huge,"Mountain, Sky, Water",17.00,17.0
-185,Dragon,Gargantuan,"Mountain, Sky, Water",24.00,24.0
-186,Dragon,Medium,"Mountain, Sky, Water",3.00,3.0
-187,Dragon,Large,"Mountain, Sky, Water",10.00,10.0
-188,Dragon,Huge,"Mountain, Sky",16.00,16.0
-189,Dragon,Gargantuan,"Mountain, Sky",23.00,23.0
-190,Dragon,Medium,"Mountain, Sky",2.00,2.0
-191,Dragon,Large,"Mountain, Sky",9.00,9.0
-192,Dragon,Gargantuan,"Mountain, Sky, Water",17.00,17.0
-193,Humanoid,Medium,"Mountain, Sky",1.00,1.0
-194,Humanoid,Medium,"Mountain, Sky",5.00,5.0
-195,Humanoid,Medium,"Mountain, Sky",7.00,7.0
-196,Humanoid,Medium,"Mountain, Sky",2.00,2.0
-197,Undead,Medium,Dungeon,1.00,1.0
-198,Monstrosity,Large,"Forest, Mountain",6.00,6.0
-199,Humanoid,Medium,"Forest, Plains, Urban",13.00,13.0
-200,Humanoid,Medium,"Forest, Plains, Urban",5.00,5.0
-201,Humanoid,Medium,"Forest, Plains, Urban",18.00,18.0
-202,Humanoid,Medium,"Forest, Plains, Urban",9.00,9.0
-203,Humanoid,Medium,"Forest, Plains, Urban",14.00,14.0
-204,Humanoid,Medium,"Forest, Plains, Urban",7.00,7.0
-205,Humanoid,Medium,"Forest, Plains, Urban",20.00,20.0
-206,Humanoid,Medium,"Forest, Plains, Urban",8.00,8.0
-207,Humanoid,Medium,"Forest, Plains, Urban",11.00,11.0
-208,Fey,Medium,"Forest, Plains",1.00,1.0
-209,Humanoid,Medium,"Forest, Plains, Urban",12.00,12.0
-210,Construct,Medium,"Dungeon, Urban",3.00,3.0
-211,Humanoid,Medium,"Forest, Plains, Urban",6.00,6.0
-212,Monstrosity,Large,"Forest, Mountain, Sky",1.00,1.0
-213,Undead,Medium,"Dungeon, Sky",12.00,12.0
-214,Construct,Large,"Dungeon, Urban",12.00,12.0
-215,Fey,Medium,"Forest, Plains",10.00,10.0
-216,Elemental,Gargantuan,"Cave, Sky",23.00,23.0
-217,Elemental,Gargantuan,"Cave, Water",20.00,20.0
-218,Elemental,Gargantuan,"Cave, Sky",16.00,16.0
-219,Elemental,Gargantuan,"Cave, Water",22.00,22.0
-220,Elemental,Medium,"Cave, Sky",7.00,7.0
-221,Elemental,Medium,Cave,7.00,7.0
-222,Elemental,Medium,Water,7.00,7.0
-223,Elemental,Large,"Cave, Sky",5.00,5.0
-224,Elemental,Large,"Cave, Underground",5.00,5.0
-225,Elemental,Large,Cave,5.00,5.0
-226,Elemental,Large,Water,5.00,5.0
-227,Celestial,Huge,"Plains, Sky, Water",23.00,23.0
-228,Monstrosity,Medium,"Forest, Mountain",2.00,2.0
-229,Giant,Large,"Forest, Plains",4.00,4.0
-230,Dragon,Tiny,"Mountain, Sky",1.00,1.0
-231,Elemental,Large,Cave,3.00,3.0
-232,Undead,Tiny,"Dungeon, Sky",4.00,4.0
-233,Aberration,Small,"Dungeon, Sky, Underground",0.13,0.13
-234,Beast,Small,"Forest, Plains, Sky",0.00,0.0
-235,Giant,Huge,"Forest, Plains",8.00,8.0
-236,Monstrosity,Huge,"Forest, Mountain, Water",10.00,10.0
-237,Plant,Large,"Forest, Sky",0.50,0.5
-238,Plant,Medium,Forest,0.00,0.0
-239,Elemental,Medium,Cave,6.00,6.0
-240,Elemental,Medium,"Cave, Sky",2.00,2.0
-241,Elemental,Large,"Cave, Sky",10.00,10.0
-242,Elemental,Large,"Cave, Sky, Underground",11.00,11.0
-243,Elemental,Large,"Cave, Sky",11.00,11.0
-244,Elemental,Large,"Cave, Sky, Water",11.00,11.0
-245,Elemental,Small,Cave,0.25,0.25
-246,Undead,Medium,Dungeon,2.00,2.0
-247,Beast,Large,"Forest, Plains, Sky",0.00,0.0
-248,Beast,Large,"Forest, Plains, Water",3.00,3.0
-249,Monstrosity,Large,"Forest, Mountain",1.00,1.0
-250,Beast,Huge,"Forest, Plains, Water",4.00,4.0
-251,Giant,Huge,"Forest, Plains",9.00,9.0
-252,Giant,Huge,"Forest, Plains",11.00,11.0
-253,Giant,Huge,"Forest, Plains",14.00,14.0
-254,Giant,Huge,"Forest, Plains",12.00,12.0
-255,Giant,Huge,"Forest, Plains",5.00,5.0
-256,Giant,Huge,"Forest, Plains",7.00,7.0
-257,Giant,Huge,"Forest, Plains",10.00,10.0
-258,Giant,Huge,"Forest, Plains, Water",13.00,13.0
-259,Giant,Huge,"Forest, Plains, Sky, Water",16.00,16.0
-260,Aberration,Medium,"Dungeon, Underground, Water",2.00,2.0
-261,Humanoid,Medium,"Forest, Plains, Urban",10.00,10.0
-262,Humanoid,Medium,"Forest, Plains, Urban",16.00,16.0
-263,Undead,Medium,Dungeon,0.25,0.25
-264,Humanoid,Small,"Forest, Plains, Urban",0.50,0.5
-265,Humanoid,Small,"Forest, Plains, Urban",1.00,1.0
-266,Construct,Large,"Dungeon, Urban",9.00,9.0
-267,Construct,Large,"Dungeon, Urban",16.00,16.0
-268,Construct,Large,"Dungeon, Urban",10.00,10.0
-269,Monstrosity,Large,"Forest, Mountain",12.00,12.0
-270,Monstrosity,Medium,"Forest, Mountain",7.00,7.0
-271,Monstrosity,Large,"Forest, Mountain, Sky",2.00,2.0
-272,Humanoid,Small,"Forest, Plains, Urban",2.00,2.0
-273,Fey,Large,"Forest, Plains",6.00,6.0
-274,Fey,Medium,"Forest, Plains",7.00,7.0
-275,Fey,Medium,"Forest, Plains",3.00,3.0
-276,Fey,Medium,Water,2.00,2.0
-277,Temp,Temp,"Mountain, Sky",TEMP,0.0
-278,Monstrosity,Medium,"Forest, Mountain, Sky",1.00,1.0
-279,Construct,Medium,"Dungeon, Sky, Urban",4.00,4.0
-280,Construct,Tiny,"Dungeon, Sky, Urban",0.00,0.0
-281,Humanoid,Medium,"Forest, Plains, Urban",0.13,0.13
-282,Beast,Huge,"Forest, Plains, Water",5.00,5.0
-283,Monstrosity,Huge,"Forest, Mountain, Water",8.00,8.0
-284,Construct,Large,"Dungeon, Sky, Urban",25.00,25.0
-285,Aberration,Tiny,"Dungeon, Underground",2.00,2.0
-286,Elemental,Medium,"Cave, Sky",6.00,6.0
-287,Aberration,Small,"Dungeon, Underground, Water",0.25,0.25
-288,Beast,Large,"Forest, Plains",0.50,0.5
-289,Monstrosity,Large,"Forest, Mountain, Water",3.00,3.0
-290,Plant,Medium,"Forest, Water",4.00,4.0
-291,Celestial,Huge,"Plains, Sky",12.00,12.0
-292,Humanoid,Small,"Forest, Plains, Urban",0.13,0.13
-293,Humanoid,Small,"Mountain, Sky",1.00,1.0
-294,Humanoid,Small,"Forest, Plains, Sky, Urban",0.25,0.25
-295,Fey,Small,"Forest, Plains, Underground",7.00,7.0
-296,Monstrosity,Gargantuan,Water,23.00,23.0
-297,Monstrosity,Huge,Water,10.00,10.0
-298,Monstrosity,Medium,"Forest, Mountain, Underground",2.00,2.0
-299,Monstrosity,Small,"Forest, Mountain, Underground",0.13,0.13
-300,Humanoid,Medium,"Forest, Plains, Urban, Water",6.00,6.0
-301,Humanoid,Medium,"Forest, Plains, Urban, Water",1.00,1.0
-302,Undead,Medium,Dungeon,21.00,21.0
-303,Humanoid,Medium,"Forest, Plains, Urban, Water",4.00,4.0
-304,Humanoid,Medium,"Forest, Plains, Urban, Water",0.50,0.5
-305,Humanoid,Medium,"Forest, Plains, Urban, Water",2.00,2.0
-306,Humanoid Humanoid,Medium,"Forest, Plains, Urban",2.00,2.0
-307,Elemental,Small,Cave,0.50,0.5
-308,Monstrosity,Large,"Forest, Mountain, Sky",3.00,3.0
-309,Plant,Large,Forest,1.00,1.0
-310,Monstrosity,Medium,"Forest, Mountain",6.00,6.0
-311,Fey,Small,"Forest, Plains",2.00,2.0
-312,Elemental,Small,"Cave, Sky",0.50,0.5
-313,Elemental,Small,"Cave, Sky, Water",0.25,0.25
-314,Elemental,Small,"Cave, Sky",0.25,0.25
-315,Humanoid,Medium,Water,0.13,0.13
-316,Monstrosity,Large,"Forest, Mountain, Water",2.00,2.0
-317,Aberration,Medium,"Dungeon, Underground",7.00,7.0
-318,Undead,Medium,Dungeon,22.00,22.0
-319,Undead,Medium,Dungeon,10.00,10.0
-320,Aberration,Large,"Dungeon, Underground, Water",14.00,14.0
-321,Aberration,Large,"Dungeon, Underground",9.00,9.0
-322,Aberration,Large,"Dungeon, Sky, Underground",5.00,5.0
-323,Plant,Small,Forest,0.00,0.0
-324,Beast,Tiny,"Forest, Plains, Underground",0.00,0.0
-325,Beast,Tiny,"Forest, Plains, Sky",0.00,0.0
-326,Fey,Medium,"Forest, Plains",0.25,0.25
-327,Beast,Small,"Forest, Plains, Sky",0.13,0.13
-328,Beast,Medium,"Forest, Plains",0.25,0.25
-329,Beast,Large,"Forest, Plains",0.13,0.13
-330,Beast,Large,"Forest, Plains, Water",0.25,0.25
-331,Beast,Tiny,"Forest, Plains, Water",0.00,0.0
-332,Beast,Large,"Forest, Plains, Water",0.50,0.5
-333,Monstrosity,Medium,"Forest, Mountain",1.00,1.0
-334,Beast,Medium,"Forest, Plains",0.00,0.0
-335,Beast,Tiny,"Forest, Plains, Sky, Water",0.13,0.13
-336,Beast,Huge,"Forest, Plains",7.00,7.0
-337,Beast,Medium,"Forest, Plains, Underground",0.25,0.25
-338,Beast,Large,"Forest, Plains, Sky",0.25,0.25
-339,Beast,Small,"Forest, Plains",0.25,0.25
-340,Beast,Huge,"Forest, Plains, Water",2.00,2.0
-341,Beast,Large,"Forest, Plains, Sky",1.00,1.0
-342,Beast,Huge,"Forest, Plains",2.00,2.0
-343,Beast,Large,"Forest, Plains, Water",1.00,1.0
-344,Beast,Small,"Forest, Plains",0.13,0.13
-345,Beast,Large,"Forest, Plains",3.00,3.0
-346,Beast,Large,Water,0.50,0.5
-347,Beast,Huge,Water,5.00,5.0
-348,Beast,Medium,"Forest, Plains, Sky",0.50,0.5
-349,Beast,Medium,"Forest, Plains",0.13,0.13
-350,Beast,Large,Water,2.00,2.0
-351,Beast,Huge,"Forest, Plains, Water",3.00,3.0
-352,Beast,Huge,"Forest, Plains",6.00,6.0
-353,Beast,Small,"Forest, Plains, Water",0.00,0.0
-354,Beast,Tiny,"Forest, Plains, Water",0.13,0.13
-355,Beast,Medium,Water,0.50,0.5
-356,Beast,Tiny,Water,0.00,0.0
-357,Beast,Medium,"Forest, Plains, Water",2.00,2.0
-358,Beast,Medium,"Forest, Plains, Water",1.00,1.0
-359,Beast,Medium,"Forest, Plains, Sky",0.00,0.0
-360,Monstrosity,Large,"Forest, Mountain",0.50,0.5
-361,Construct,Medium,"Dungeon, Urban",0.25,0.25
-362,Construct,Medium,"Dungeon, Sky, Urban",0.13,0.13
-363,Construct,Medium,"Dungeon, Sky, Urban",1.00,1.0
-364,Construct,Medium,"Dungeon, Urban",0.50,0.5
-365,Aberration,Medium,"Dungeon, Underground, Water",11.00,11.0
-366,Undead,Medium,Dungeon,15.00,15.0
-367,Plant,Large,Forest,2.00,2.0
-368,Undead,Medium,Dungeon,11.00,11.0
-369,Undead,Large,Dungeon,4.00,4.0
-370,Monstrosity,Large,"Forest, Mountain",10.00,10.0
-371,Monstrosity,Large,"Forest, Mountain",8.00,8.0
-372,Humanoid,Medium,"Forest, Plains, Urban",17.00,17.0
-373,Aberration,Small,"Dungeon, Underground",3.00,3.0
-374,Aberration,Tiny,"Dungeon, Underground",0.13,0.13
-375,Aberration,Medium,"Dungeon, Underground",4.00,4.0
-376,Aberration,Gargantuan,"Dungeon, Underground",13.00,13.0
-377,Fey,Medium,"Forest, Plains, Water",2.00,2.0
-378,Fiend,Large,"Hell, Sky",3.00,3.0
-379,Undead,Huge,"Dungeon, Sky",20.00,20.0
-380,Aberration,Medium,"Dungeon, Underground",2.00,2.0
-381,Humanoid,Medium,"Forest, Plains, Urban",0.00,0.0
-382,Humanoid,Medium,Water,5.00,5.0
-383,Ooze,Tiny,"Cave, Dungeon",0.25,0.25
-384,Ooze,Medium,"Cave, Dungeon",5.00,5.0
-385,Ooze,Huge,"Cave, Dungeon",10.00,10.0
-386,Giant,Large,"Forest, Plains",2.00,2.0
-387,Giant,Large,"Forest, Plains",3.00,3.0
-388,Giant,Large,"Forest, Plains",1.00,1.0
-389,Giant,Large,"Forest, Plains, Sky",7.00,7.0
-390,Undead,Huge,Dungeon,10.00,10.0
-391,Ooze,Large,"Cave, Dungeon",4.00,4.0
-392,Ooze,Large,"Cave, Dungeon",2.00,2.0
-393,Ooze,Medium,"Cave, Dungeon",0.50,0.5
-394,Aberration,Large,"Dungeon, Underground",5.00,5.0
-395,Monstrosity,Large,"Forest, Plains",3.00,3.0
-396,Celestial,Large,"Plains, Sky",2.00,2.0
-397,Monstrosity,Medium,"Forest, Mountain, Sky",2.00,2.0
-398,Monstrosity,Medium,"Forest, Mountain",0.50,0.5
-399,Fey,Tiny,"Forest, Plains, Sky",0.25,0.25
-400,Elemental,Huge,"Cave, Sky",19.00,19.0
-401,Elemental,Gargantuan,"Cave, Underground",20.00,20.0
-402,Elemental,Huge,"Cave, Water",18.00,18.0
-403,Elemental,Huge,"Cave, Sky",18.00,18.0
-404,Dragon,Tiny,"Mountain, Sky",0.25,0.25
-405,Monstrosity,Gargantuan,"Forest, Mountain, Underground",15.00,15.0
-406,Fey,Tiny,"Forest, Plains",1.00,1.0
-407,Fey,Small,"Forest, Plains",3.00,3.0
-408,Monstrosity,Huge,"Forest, Mountain, Underground",11.00,11.0
-409,Undead,Medium,Dungeon,5.00,5.0
-410,Monstrosity,Gargantuan,"Forest, Mountain, Sky",11.00,11.0
-411,Humanoid,Medium,Water,0.50,0.5
-412,Humanoid,Large,Water,5.00,5.0
-413,Humanoid,Medium,Water,2.00,2.0
-414,Elemental,Medium,Cave,1.00,1.0
-415,Elemental,Huge,"Cave, Underground",9.00,9.0
-416,Fey,Medium,"Forest, Plains",0.50,0.5
-417,Monstrosity,Large,Water,5.00,5.0
-418,Humanoid,Medium,Water,1.00,1.0
-419,Undead,Medium,Dungeon,0.50,0.5
-420,Dragon,Varies,"Mountain, Sky",13.00,13.0
-421,Plant,Large,"Forest, Water",5.00,5.0
-422,Construct,Large,"Dungeon, Urban",7.00,7.0
-423,Fey,Medium,"Forest, Plains, Water",3.00,3.0
-424,Undead,Huge,Dungeon,7.00,7.0
-425,Undead,Large,Dungeon,2.00,2.0
-426,Undead,Large,Dungeon,0.50,0.5
-427,Aberration,Large,"Dungeon, Underground",7.00,7.0
-428,Aberration,Medium,"Dungeon, Underground",10.00,10.0
-429,Aberration,Medium,"Dungeon, Underground",9.00,9.0
-430,Aberration,Large,"Dungeon, Underground",8.00,8.0
-431,Ooze,Medium,"Cave, Dungeon, Water",3.00,3.0
-432,Monstrosity,Medium,"Forest, Mountain",13.00,13.0
-433,Monstrosity,Medium,"Forest, Mountain",11.00,11.0
-434,Monstrosity,Medium,"Forest, Mountain",9.00,9.0
-435,Monstrosity,Small,"Forest, Mountain",0.25,0.25
-436,Undead,Medium,"Dungeon, Sky",1.00,1.0
-437,Monstrosity,Large,"Forest, Mountain, Sky",17.00,17.0
-438,Monstrosity,Large,"Forest, Mountain, Sky",11.00,11.0
-439,Plant,Temp,Forest,TEMP,0.0
-440,Aberration,Small,"Dungeon, Underground",0.25,0.25
-441,Aberration,Large,"Dungeon, Underground",10.00,10.0
-442,Aberration,Medium,"Dungeon, Underground",16.00,16.0
-443,Aberration,Medium,"Dungeon, Underground",5.00,5.0
-444,Aberration,Medium,"Dungeon, Underground",13.00,13.0
-445,Monstrosity,Medium,"Forest, Mountain",0.25,0.25
-446,Beast,Tiny,"Forest, Plains, Sky",0.13,0.13
-447,Construct,Medium,"Dungeon, Urban",6.00,6.0
-448,Monstrosity,Gargantuan,"Forest, Mountain",30.00,30.0
-449,Plant,Large,Forest,0.50,0.5
-450,Plant,Medium,Forest,1.00,1.0
-451,Fiend,Gargantuan,"Hell, Sky",30.00,30.0
-452,Construct,Tiny,"Dungeon, Urban",1.00,1.0
-453,Undead,Small,Dungeon,0.50,0.5
-454,Plant,Huge,Forest,9.00,9.0
-455,Giant,Large,"Forest, Plains",5.00,5.0
-456,Giant,Huge,"Forest, Plains",13.00,13.0
-457,Giant,Large,"Forest, Plains",9.00,9.0
-458,Giant,Large,"Forest, Plains",11.00,11.0
-459,Giant,Large,"Forest, Plains",7.00,7.0
-460,Celestial,Large,"Plains, Sky",5.00,5.0
-461,Undead,Medium,Dungeon,13.00,13.0
-462,Undead,Medium,"Dungeon, Sky",3.00,3.0
-463,Plant,Small,Forest,0.25,0.25
-464,Plant,Small,Forest,2.00,2.0
-465,Elemental,Large,Water,3.00,3.0
-466,Ooze,Gargantuan,"Cave, Dungeon",10.00,10.0
-467,Undead,Tiny,"Dungeon, Sky",2.00,2.0
-468,Plant,Medium,Forest,5.00,5.0
-469,Dragon,Large,"Mountain, Sky",6.00,6.0
-470,Elemental,Medium,"Cave, Underground",5.00,5.0
-471,Plant,Medium,Forest,2.00,2.0
-472,Fey,Large,"Forest, Plains, Sky",4.00,4.0
-473,Monstrosity,Huge,"Forest, Mountain",9.00,9.0
-474,Monstrosity,Large,"Forest, Mountain",7.00,7.0
-475,Monstrosity Monstrosity,Huge,"Forest, Mountain, Water",12.00,12.0
-476,Monstrosity Monstrosity,Medium,"Forest, Mountain",4.00,4.0
-477,Monstrosity Monstrosity,Medium,"Forest, Mountain",5.00,5.0
-478,Fiend,Medium,"Hell, Water",9.00,9.0
-479,Fiend,Medium,"Hell, Water",3.00,3.0
-480,Fiend,Medium,Hell,12.00,12.0
-481,Fiend,Medium,"Hell, Sky",13.00,13.0
-482,Fiend,Large,Hell,11.00,11.0
-483,Undead,Huge,Dungeon,3.00,3.0
-484,Undead,Large,"Dungeon, Sky",5.00,5.0
-485,Undead,Large,Dungeon,3.00,3.0
-486,Undead,Huge,Dungeon,8.00,8.0
-487,Plant,Medium,Forest,0.13,0.13
+MonsterID,Name,Type,Environment,Size,CR,CR_float
+1,Aarakocra,Humanoid,"Forest, Plains, Sky, Urban",Medium,0.25,0.25
+2,Aboleth,Aberration,"Dungeon, Underground, Water",Large,10.00,10.0
+3,Albino Dwarf Warrior,Humanoid,"Forest, Plains, Urban",Medium,0.25,0.25
+4,Aldani (Lobsterfolk),Monstrosity,"Forest, Mountain, Water",Medium,1.00,1.0
+5,Allip,Undead,"Dungeon, Sky",Medium,5.00,5.0
+6,Almiraj,Beast,"Forest, Plains",Small,0.00,0.0
+7,Ambush Drake,Dragon,"Mountain, Sky",Medium,0.50,0.5
+8,"Angel, Deva",Celestial,"Plains, Sky",Medium,10.00,10.0
+9,"Angel, Planetar",Celestial,"Plains, Sky",Large,16.00,16.0
+10,"Angel, Solar",Celestial,"Plains, Sky",Large,21.00,21.0
+11,"Animated Object, Armor",Construct,"Dungeon, Urban",Medium,1.00,1.0
+12,"Animated Object, Broom of Attack",Construct,"Dungeon, Sky, Urban",Small,0.25,0.25
+13,"Animated Object, Flying Sword",Construct,"Dungeon, Sky, Urban",Small,0.25,0.25
+14,"Animated Object, Rug of Smothering",Construct,"Dungeon, Urban",Large,2.00,2.0
+15,"Animated Object, Table",Construct,"Dungeon, Urban",Large,2.00,2.0
+16,Ankheg,Monstrosity,"Forest, Mountain, Underground",Large,2.00,2.0
+17,Assassin Vine,Plant,Forest,Large,3.00,3.0
+18,"Assorted Beast, Aurochs",Beast,"Forest, Plains",Large,2.00,2.0
+19,"Assorted Beast, Cattle",Beast,"Forest, Plains",Large,0.25,0.25
+20,"Assorted Beast, Dolphin",Beast,"Forest, Plains, Water",Medium,0.13,0.13
+21,"Assorted Beast, Swarm of Rot Grubs",Beast,"Forest, Plains",Medium,0.50,0.5
+22,Astral Dreadnought,Monstrosity,"Forest, Mountain, Sky",Gargantuan,21.00,21.0
+23,Atropal,Undead,"Dungeon, Sky",Huge,13.00,13.0
+24,Avatar of Death,Undead,"Dungeon, Sky",Medium,VARIES,0.0
+25,Awakened Zurkhwood,Plant,Forest,Huge,2.00,2.0
+26,Azer,Elemental,Cave,Medium,2.00,2.0
+27,Baba Lysaga's Creeping Hut,Construct,"Dungeon, Urban",Gargantuan,11.00,11.0
+28,Balhannoth,Aberration,"Dungeon, Underground",Large,11.00,11.0
+29,Banderhobb,Monstrosity,"Forest, Mountain",Large,5.00,5.0
+30,Banshee,Undead,"Dungeon, Sky",Medium,4.00,4.0
+31,Barghest,Fiend,Hell,Large,4.00,4.0
+32,Basilisk,Monstrosity,"Forest, Mountain",Medium,3.00,3.0
+33,Behir,Monstrosity,"Forest, Mountain",Huge,11.00,11.0
+34,Beholder,Aberration,"Dungeon, Underground",Large,13.00,13.0
+35,"Beholder, Death Kiss",Aberration,"Dungeon, Sky, Underground",Large,10.00,10.0
+36,"Beholder, Death Tyrant",Undead,Dungeon,Large,14.00,14.0
+37,"Beholder, Gauth",Aberration,"Dungeon, Sky, Underground",Medium,6.00,6.0
+38,"Beholder, Gazer",Aberration,"Dungeon, Sky, Underground",Tiny,0.50,0.5
+39,"Beholder, Spectator",Aberration,"Dungeon, Sky, Underground",Medium,3.00,3.0
+40,Berbalang,Aberration,"Dungeon, Sky, Underground",Medium,2.00,2.0
+41,Black Earth Guard,Humanoid,"Forest, Plains, Urban",Medium,2.00,2.0
+42,Black Earth Priest,Humanoid,"Forest, Plains, Urban",Medium,3.00,3.0
+43,"Black Earth, Burrowshark",Humanoid,Water,Medium,4.00,4.0
+44,"Black Earth, Sacred Stone Monk",Humanoid,"Forest, Plains, Urban",Medium,0.50,0.5
+45,"Black Earth, Stonemelder",Humanoid,"Forest, Plains, Urban",Medium,4.00,4.0
+46,"Blight, Needle",Plant,Forest,Medium,0.25,0.25
+47,"Blight, Tree",Plant,Forest,Huge,7.00,7.0
+48,"Blight, Twig",Plant,Forest,Small,0.13,0.13
+49,"Blight, Vine",Plant,Forest,Medium,0.50,0.5
+50,Bodak,Undead,Dungeon,Medium,6.00,6.0
+51,Boggle,Fey,"Forest, Plains",Small,0.13,0.13
+52,Boneclaw,Undead,Dungeon,Large,12.00,12.0
+53,Bugbear,Humanoid,"Forest, Plains, Urban",Medium,1.00,1.0
+54,Bugbear Chief,Humanoid,"Forest, Plains, Urban",Medium,3.00,3.0
+55,Bulette,Monstrosity,"Forest, Mountain, Underground",Large,5.00,5.0
+56,Bullywug,Humanoid,"Forest, Plains, Urban, Water",Medium,0.25,0.25
+57,Cadaver Collector,Construct,"Dungeon, Urban",Large,14.00,14.0
+58,Cambion,Fiend,"Hell, Sky",Medium,5.00,5.0
+59,Carrion Crawler,Monstrosity,"Forest, Mountain",Large,2.00,2.0
+60,Catoblepas,Monstrosity,"Forest, Mountain",Large,5.00,5.0
+61,Cave Fisher,Monstrosity,"Forest, Mountain",Medium,3.00,3.0
+62,Centaur,Monstrosity,"Forest, Mountain",Large,2.00,2.0
+63,Centaur Mummy,Undead,Dungeon,Large,6.00,6.0
+64,Chimera,Monstrosity,"Forest, Mountain, Sky",Large,6.00,6.0
+65,Chitine,Monstrosity,"Forest, Mountain",Small,0.50,0.5
+66,"Chitine, Choldrith",Monstrosity,"Forest, Mountain",Medium,3.00,3.0
+67,Choker,Aberration,"Dungeon, Underground",Small,1.00,1.0
+68,Chuul,Aberration,"Dungeon, Underground, Water",Large,4.00,4.0
+69,Chwinga,Elemental,"Cave, Water",Tiny,0.00,0.0
+70,Cloaker,Aberration,"Dungeon, Sky, Underground",Large,8.00,8.0
+71,"Clockwork, Bronze Scout",Construct,"Dungeon, Underground, Urban",Medium,1.00,1.0
+72,"Clockwork, Iron Cobra",Construct,"Dungeon, Urban",Medium,4.00,4.0
+73,"Clockwork, Oaken Bolter",Construct,"Dungeon, Urban",Medium,5.00,5.0
+74,"Clockwork, Stone Defender",Construct,"Dungeon, Urban",Medium,4.00,4.0
+75,Cockatrice,Monstrosity,"Forest, Mountain, Sky",Small,0.50,0.5
+76,Corpse Flower,Plant,Forest,Large,8.00,8.0
+77,Couatl,Celestial,"Plains, Sky",Medium,4.00,4.0
+78,Crag Cat,Beast,"Forest, Plains",Large,1.00,1.0
+79,Cranium Rat,Beast,"Forest, Plains",Tiny,0.00,0.0
+80,"Cranium Rat, Swarm",Beast,"Forest, Plains",Medium,5.00,5.0
+81,Crawling Claw,Undead,Dungeon,Tiny,0.00,0.0
+82,Crushing Wave Priest,Humanoid,"Forest, Plains, Urban",Medium,2.00,2.0
+83,Crushing Wave Reaver,Humanoid,"Forest, Plains, Urban",Medium,0.50,0.5
+84,"Crushing Wave, Dark Tide Knight",Humanoid,"Forest, Plains, Urban",Medium,3.00,3.0
+85,"Crushing Wave, Fathomer",Humanoid,"Forest, Plains, Urban",Medium,2.00,2.0
+86,"Crushing Wave, One-Eyed Shiver",Humanoid,"Forest, Plains, Urban",Medium,3.00,3.0
+87,Cyclops,Giant,"Forest, Plains",Huge,6.00,6.0
+88,Darkling,Fey,"Forest, Plains",Small,0.50,0.5
+89,Darkling Elder,Fey,"Forest, Plains",Medium,2.00,2.0
+90,Darkmantle,Monstrosity,"Forest, Mountain, Sky",Small,0.50,0.5
+91,Death Knight,Undead,Dungeon,Medium,17.00,17.0
+92,Deathlock,Undead,Dungeon,Medium,4.00,4.0
+93,Deathlock Mastermind,Undead,Dungeon,Medium,8.00,8.0
+94,Deathlock Wight,Undead,Dungeon,Medium,3.00,3.0
+95,Decapus,Monstrosity,"Forest, Mountain",Large,4.00,4.0
+96,Deep Scion,Humanoid,"Forest, Plains, Urban, Water",Medium,3.00,3.0
+97,Demilich,Undead,"Dungeon, Sky",Tiny,18.00,18.0
+98,"Demon Lord, Baphomet",Fiend,Hell,Huge,23.00,23.0
+99,"Demon Lord, Demogorgon",Fiend,"Hell, Water",Huge,26.00,26.0
+100,"Demon Lord, Fraz-Urb'Luu",Fiend,"Hell, Sky",Large,23.00,23.0
+101,"Demon Lord, Graz'Zt",Fiend Fiend,Hell,Large,24.00,24.0
+102,"Demon Lord, Juiblex",Fiend,Hell,Huge,23.00,23.0
+103,"Demon Lord, Orcus",Fiend,"Hell, Sky",Huge,26.00,26.0
+104,"Demon Lord, Yeenoghu",Fiend,Hell,Huge,24.00,24.0
+105,"Demon Lord, Zuggtmoy",Fiend,Hell,Large,23.00,23.0
+106,"Demon, Abyssal Wretch",Fiend,Hell,Medium,0.25,0.25
+107,"Demon, Alkilith",Fiend,Hell,Medium,11.00,11.0
+108,"Demon, Armanite",Fiend,Hell,Large,7.00,7.0
+109,"Demon, Babau",Fiend,Hell,Medium,4.00,4.0
+110,"Demon, Balor",Fiend,"Hell, Sky",Huge,19.00,19.0
+111,"Demon, Barlgura",Fiend,Hell,Large,5.00,5.0
+112,"Demon, Bulezau",Fiend,Hell,Medium,3.00,3.0
+113,"Demon, Chasme",Fiend,"Hell, Sky",Large,6.00,6.0
+114,"Demon, Draegloth",Fiend,Hell,Large,7.00,7.0
+115,"Demon, Dretch",Fiend,Hell,Small,0.25,0.25
+116,"Demon, Dybbuk",Fiend,"Hell, Sky",Medium,4.00,4.0
+117,"Demon, Glabrezu",Fiend,Hell,Large,9.00,9.0
+118,"Demon, Goristro",Fiend,Hell,Huge,17.00,17.0
+119,"Demon, Hezrou",Fiend,Hell,Large,8.00,8.0
+120,"Demon, Manes",Fiend,Hell,Small,0.13,0.13
+121,"Demon, Marilith",Fiend,Hell,Large,16.00,16.0
+122,"Demon, Maurezhi",Fiend,Hell,Medium,7.00,7.0
+123,"Demon, Maw",Fiend,Hell,Medium,1.00,1.0
+124,"Demon, Molydeus",Fiend,Hell,Huge,21.00,21.0
+125,"Demon, Nabassu",Fiend,"Hell, Sky",Medium,15.00,15.0
+126,"Demon, Nalfeshnee",Fiend,"Hell, Sky",Large,13.00,13.0
+127,"Demon, Quasit",Fiend,Hell,Tiny,1.00,1.0
+128,"Demon, Rutterkin",Fiend,Hell,Medium,2.00,2.0
+129,"Demon, Shadow",Fiend,"Hell, Sky",Medium,4.00,4.0
+130,"Demon, Shoosuva",Fiend,Hell,Large,8.00,8.0
+131,"Demon, Sibriex",Fiend,"Hell, Sky",Huge,18.00,18.0
+132,"Demon, Vrock",Fiend,"Hell, Sky",Large,6.00,6.0
+133,"Demon, Wastrilith",Fiend,"Hell, Water",Large,13.00,13.0
+134,"Demon, Yochlol",Fiend,Hell,Medium,10.00,10.0
+135,Derro,Humanoid,"Forest, Plains, Urban",Small,0.25,0.25
+136,Derro Savant,Humanoid,"Forest, Plains, Urban",Small,3.00,3.0
+137,"Devil, Abishai, Black",Fiend,"Hell, Sky",Medium,7.00,7.0
+138,"Devil, Abishai, Blue",Fiend,"Hell, Sky",Medium,17.00,17.0
+139,"Devil, Abishai, Green",Fiend,"Hell, Sky",Medium,15.00,15.0
+140,"Devil, Abishai, Red",Fiend,"Hell, Sky",Medium,19.00,19.0
+141,"Devil, Abishai, White",Fiend,"Hell, Sky",Medium,6.00,6.0
+142,"Devil, Amnizu",Fiend,"Hell, Sky",Medium,18.00,18.0
+143,"Devil, Arch, Bael",Fiend,Hell,Large,19.00,19.0
+144,"Devil, Arch, Geryon",Fiend,"Hell, Sky",Huge,22.00,22.0
+145,"Devil, Arch, Hutijin",Fiend,"Hell, Sky",Large,21.00,21.0
+146,"Devil, Arch, Moloch",Fiend,Hell,Large,21.00,21.0
+147,"Devil, Arch, Titivilus",Fiend,"Hell, Sky",Medium,16.00,16.0
+148,"Devil, Arch, Zariel",Fiend,"Hell, Sky",Large,26.00,26.0
+149,"Devil, Barbed",Fiend,Hell,Medium,5.00,5.0
+150,"Devil, Bearded",Fiend,Hell,Medium,3.00,3.0
+151,"Devil, Bone",Fiend,"Hell, Sky",Large,9.00,9.0
+152,"Devil, Chain",Fiend,Hell,Medium,8.00,8.0
+153,"Devil, Erinyes",Fiend,"Hell, Sky",Medium,12.00,12.0
+154,"Devil, Hellfire Engine",Construct,"Dungeon, Urban",Huge,16.00,16.0
+155,"Devil, Horned",Fiend,"Hell, Sky",Large,11.00,11.0
+156,"Devil, Ice",Fiend,Hell,Large,14.00,14.0
+157,"Devil, Imp",Fiend,"Hell, Sky",Tiny,1.00,1.0
+158,"Devil, Lemure",Fiend,Hell,Medium,0.00,0.0
+159,"Devil, Merregon",Fiend,Hell,Medium,4.00,4.0
+160,"Devil, Narzugon",Fiend,Hell,Medium,13.00,13.0
+161,"Devil, Nupperibo",Fiend,Hell,Medium,0.50,0.5
+162,"Devil, Orthon",Fiend,Hell,Large,10.00,10.0
+163,"Devil, Pit Fiend",Fiend,"Hell, Sky",Large,20.00,20.0
+164,"Devil, Spined",Fiend,"Hell, Sky",Small,2.00,2.0
+165,Devourer,Fiend,Hell,Large,13.00,13.0
+166,"Dinosaur, Allosaurus",Beast,"Forest, Plains",Large,2.00,2.0
+167,"Dinosaur, Ankylosaurus",Beast,"Forest, Plains",Huge,3.00,3.0
+168,"Dinosaur, Brontosaurus",Beast,"Forest, Plains",Gargantuan,5.00,5.0
+169,"Dinosaur, Deinonychus",Beast,"Forest, Plains",Medium,1.00,1.0
+170,"Dinosaur, Dimetrodon",Beast,"Forest, Plains, Water",Medium,0.25,0.25
+171,"Dinosaur, Hadrosaurus",Beast,"Forest, Plains",Large,0.25,0.25
+172,"Dinosaur, Plesiosaurus",Beast,"Forest, Plains, Water",Large,2.00,2.0
+173,"Dinosaur, Pteranodon",Beast,"Forest, Plains, Sky",Medium,0.25,0.25
+174,"Dinosaur, Quetzalcoatlus",Beast,"Forest, Plains, Sky",Huge,2.00,2.0
+175,"Dinosaur, Stegosaurus",Beast,"Forest, Plains",Huge,4.00,4.0
+176,"Dinosaur, Triceratops",Beast,"Forest, Plains",Huge,5.00,5.0
+177,"Dinosaur, Tyrannosaurus Rex",Beast,"Forest, Plains",Huge,8.00,8.0
+178,"Dinosaur, Velociraptor",Beast,"Forest, Plains",Tiny,0.25,0.25
+179,Displacer Beast,Monstrosity,"Forest, Mountain",Large,3.00,3.0
+180,Doppelganger,Monstrosity,"Forest, Mountain",Medium,3.00,3.0
+181,Dracolich Template,Undead,Dungeon,Temp,TEMP,0.0
+182,"Dragon, Chromatic, Black, Adult",Dragon,"Mountain, Sky, Water",Huge,14.00,14.0
+183,"Dragon, Chromatic, Black, Ancient",Dragon,"Mountain, Sky, Water",Gargantuan,21.00,21.0
+184,"Dragon, Chromatic, Black, Wyrmling",Dragon,"Mountain, Sky, Water",Medium,2.00,2.0
+185,"Dragon, Chromatic, Black, Young",Dragon,"Mountain, Sky, Water",Large,7.00,7.0
+186,"Dragon, Chromatic, Blue, Adult",Dragon,"Mountain, Sky, Underground",Huge,16.00,16.0
+187,"Dragon, Chromatic, Blue, Ancient",Dragon,"Mountain, Sky, Underground",Gargantuan,23.00,23.0
+188,"Dragon, Chromatic, Blue, Wyrmling",Dragon,"Mountain, Sky, Underground",Medium,3.00,3.0
+189,"Dragon, Chromatic, Blue, Young",Dragon,"Mountain, Sky, Underground",Large,9.00,9.0
+190,"Dragon, Chromatic, Green, Adult",Dragon,"Mountain, Sky, Water",Huge,15.00,15.0
+191,"Dragon, Chromatic, Green, Ancient",Dragon,"Mountain, Sky, Water",Gargantuan,22.00,22.0
+192,"Dragon, Chromatic, Green, Wyrmling",Dragon,"Mountain, Sky, Water",Medium,2.00,2.0
+193,"Dragon, Chromatic, Green, Young",Dragon,"Mountain, Sky, Water",Large,8.00,8.0
+194,"Dragon, Chromatic, Red, Adult",Dragon,"Mountain, Sky",Huge,17.00,17.0
+195,"Dragon, Chromatic, Red, Ancient",Dragon,"Mountain, Sky",Gargantuan,24.00,24.0
+196,"Dragon, Chromatic, Red, Wyrmling",Dragon,"Mountain, Sky",Medium,4.00,4.0
+197,"Dragon, Chromatic, Red, Young",Dragon,"Mountain, Sky",Large,10.00,10.0
+198,"Dragon, Chromatic, White, Adult",Dragon,"Mountain, Sky, Underground, Water",Huge,13.00,13.0
+199,"Dragon, Chromatic, White, Ancient",Dragon,"Mountain, Sky, Underground, Water",Gargantuan,20.00,20.0
+200,"Dragon, Chromatic, White, Wyrmling",Dragon,"Mountain, Sky, Underground, Water",Medium,2.00,2.0
+201,"Dragon, Chromatic, White, Young",Dragon,"Mountain, Sky, Underground, Water",Large,6.00,6.0
+202,"Dragon, Metallic, Brass, Adult",Dragon,"Mountain, Sky, Underground",Huge,13.00,13.0
+203,"Dragon, Metallic, Brass, Ancient",Dragon,"Mountain, Sky, Underground",Gargantuan,20.00,20.0
+204,"Dragon, Metallic, Brass, Wyrmling",Dragon,"Mountain, Sky, Underground",Medium,1.00,1.0
+205,"Dragon, Metallic, Brass, Young",Dragon,"Mountain, Sky, Underground",Large,6.00,6.0
+206,"Dragon, Metallic, Bronze, Adult",Dragon,"Mountain, Sky, Water",Huge,15.00,15.0
+207,"Dragon, Metallic, Bronze, Ancient",Dragon,"Mountain, Sky, Water",Gargantuan,22.00,22.0
+208,"Dragon, Metallic, Bronze, Wyrmling",Dragon,"Mountain, Sky, Water",Medium,2.00,2.0
+209,"Dragon, Metallic, Bronze, Young",Dragon,"Mountain, Sky, Water",Large,8.00,8.0
+210,"Dragon, Metallic, Copper, Adult",Dragon,"Mountain, Sky",Huge,14.00,14.0
+211,"Dragon, Metallic, Copper, Ancient",Dragon,"Mountain, Sky",Gargantuan,21.00,21.0
+212,"Dragon, Metallic, Copper, Wyrmling",Dragon,"Mountain, Sky",Medium,1.00,1.0
+213,"Dragon, Metallic, Copper, Young",Dragon,"Mountain, Sky",Large,7.00,7.0
+214,"Dragon, Metallic, Gold, Adult",Dragon,"Mountain, Sky, Water",Huge,17.00,17.0
+215,"Dragon, Metallic, Gold, Ancient",Dragon,"Mountain, Sky, Water",Gargantuan,24.00,24.0
+216,"Dragon, Metallic, Gold, Wyrmling",Dragon,"Mountain, Sky, Water",Medium,3.00,3.0
+217,"Dragon, Metallic, Gold, Young",Dragon,"Mountain, Sky, Water",Large,10.00,10.0
+218,"Dragon, Metallic, Silver, Adult",Dragon,"Mountain, Sky",Huge,16.00,16.0
+219,"Dragon, Metallic, Silver, Ancient",Dragon,"Mountain, Sky",Gargantuan,23.00,23.0
+220,"Dragon, Metallic, Silver, Wyrmling",Dragon,"Mountain, Sky",Medium,2.00,2.0
+221,"Dragon, Metallic, Silver, Young",Dragon,"Mountain, Sky",Large,9.00,9.0
+222,"Dragon, Turtle",Dragon,"Mountain, Sky, Water",Gargantuan,17.00,17.0
+223,Dragonclaw,Humanoid,"Mountain, Sky",Medium,1.00,1.0
+224,Dragonfang,Humanoid,"Mountain, Sky",Medium,5.00,5.0
+225,Dragonsoul,Humanoid,"Mountain, Sky",Medium,7.00,7.0
+226,Dragonwing,Humanoid,"Mountain, Sky",Medium,2.00,2.0
+227,Dread Warrior,Undead,Dungeon,Medium,1.00,1.0
+228,Drider,Monstrosity,"Forest, Mountain",Large,6.00,6.0
+229,Drow,Humanoid,"Forest, Plains, Urban",Medium,0.25,0.25
+230,Drow Arachnomancer,Humanoid,"Forest, Plains, Urban",Medium,13.00,13.0
+231,Drow Elite Warrior,Humanoid,"Forest, Plains, Urban",Medium,5.00,5.0
+232,Drow Favored Consort,Humanoid,"Forest, Plains, Urban",Medium,18.00,18.0
+233,Drow House Captain,Humanoid,"Forest, Plains, Urban",Medium,9.00,9.0
+234,Drow Inquisitor,Humanoid,"Forest, Plains, Urban",Medium,14.00,14.0
+235,Drow Mage,Humanoid,"Forest, Plains, Urban",Medium,7.00,7.0
+236,Drow Matron Mother,Humanoid,"Forest, Plains, Urban",Medium,20.00,20.0
+237,Drow Priestess of Lolth,Humanoid,"Forest, Plains, Urban",Medium,8.00,8.0
+238,Drow Shadowblade,Humanoid,"Forest, Plains, Urban",Medium,11.00,11.0
+239,Dryad,Fey,"Forest, Plains",Medium,1.00,1.0
+240,Duergar,Humanoid,"Forest, Plains, Urban",Medium,1.00,1.0
+241,Duergar Darkhaft,Humanoid,"Forest, Plains, Urban",Medium,2.00,2.0
+242,Duergar Despot,Humanoid,"Forest, Plains, Urban",Medium,12.00,12.0
+243,Duergar Hammerer,Humanoid,"Forest, Plains, Urban",Medium,2.00,2.0
+244,Duergar Kavalrachni,Humanoid,"Forest, Plains, Urban",Medium,2.00,2.0
+245,Duergar Keeper of the Flame,Humanoid,"Forest, Plains, Urban",Medium,2.00,2.0
+246,Duergar Mind Master,Humanoid,"Forest, Plains, Urban",Medium,2.00,2.0
+247,Duergar Screamer,Construct,"Dungeon, Urban",Medium,3.00,3.0
+248,Duergar Soulblade,Humanoid,"Forest, Plains, Urban",Medium,1.00,1.0
+249,Duergar Spy,Humanoid,"Forest, Plains, Urban",Medium,2.00,2.0
+250,Duergar Stone Guard,Humanoid,"Forest, Plains, Urban",Medium,2.00,2.0
+251,Duergar Warlord,Humanoid,"Forest, Plains, Urban",Medium,6.00,6.0
+252,Duergar Xarrorn,Humanoid,"Forest, Plains, Urban",Medium,2.00,2.0
+253,Eblis,Monstrosity,"Forest, Mountain, Sky",Large,1.00,1.0
+254,Eidolon,Undead,"Dungeon, Sky",Medium,12.00,12.0
+255,"Eidolon, Sacred Statue",Construct,"Dungeon, Urban",Large,12.00,12.0
+256,"Eladrin, Autumn",Fey,"Forest, Plains",Medium,10.00,10.0
+257,"Eladrin, Spring",Fey,"Forest, Plains",Medium,10.00,10.0
+258,"Eladrin, Summer",Fey,"Forest, Plains",Medium,10.00,10.0
+259,"Eladrin, Winter",Fey,"Forest, Plains",Medium,10.00,10.0
+260,"Elder Elemental, Elder Tempest",Elemental,"Cave, Sky",Gargantuan,23.00,23.0
+261,"Elder Elemental, Leviathan",Elemental,"Cave, Water",Gargantuan,20.00,20.0
+262,"Elder Elemental, Phoenix",Elemental,"Cave, Sky",Gargantuan,16.00,16.0
+263,"Elder Elemental, Zaratan",Elemental,"Cave, Water",Gargantuan,22.00,22.0
+264,"Elemental Myrmidon, Air",Elemental,"Cave, Sky",Medium,7.00,7.0
+265,"Elemental Myrmidon, Earth",Elemental,Cave,Medium,7.00,7.0
+266,"Elemental Myrmidon, Fire",Elemental,Cave,Medium,7.00,7.0
+267,"Elemental Myrmidon, Water",Elemental,Water,Medium,7.00,7.0
+268,"Elemental, Air",Elemental,"Cave, Sky",Large,5.00,5.0
+269,"Elemental, Earth",Elemental,"Cave, Underground",Large,5.00,5.0
+270,"Elemental, Fire",Elemental,Cave,Large,5.00,5.0
+271,"Elemental, Water",Elemental,Water,Large,5.00,5.0
+272,Empyrean,Celestial,"Plains, Sky, Water",Huge,23.00,23.0
+273,Eternal Flame Guardian,Humanoid,"Forest, Plains, Urban",Medium,2.00,2.0
+274,Eternal Flame Priest,Humanoid,"Forest, Plains, Urban",Medium,3.00,3.0
+275,"Eternal Flame, Flamewrath",Humanoid,"Forest, Plains, Urban",Medium,6.00,6.0
+276,"Eternal Flame, Razerblast",Humanoid,"Forest, Plains, Urban",Medium,5.00,5.0
+277,Ettercap,Monstrosity,"Forest, Mountain",Medium,2.00,2.0
+278,Ettin,Giant,"Forest, Plains",Large,4.00,4.0
+279,Faerie Dragon,Dragon,"Mountain, Sky",Tiny,1.00,1.0
+280,Firenewt Warlock of Imix,Humanoid,"Forest, Plains, Urban",Medium,1.00,1.0
+281,Firenewt Warrior,Humanoid,"Forest, Plains, Urban",Medium,0.50,0.5
+282,Flail Snail,Elemental,Cave,Large,3.00,3.0
+283,Flameskull,Undead,"Dungeon, Sky",Tiny,4.00,4.0
+284,Flumph,Aberration,"Dungeon, Sky, Underground",Small,0.13,0.13
+285,Flying Monkey,Beast,"Forest, Plains, Sky",Small,0.00,0.0
+286,Fomorian,Giant,"Forest, Plains",Huge,8.00,8.0
+287,Froghemoth,Monstrosity,"Forest, Mountain, Water",Huge,10.00,10.0
+288,"Fungus, Gas Spore",Plant,"Forest, Sky",Large,0.50,0.5
+289,"Fungus, Shrieker",Plant,Forest,Medium,0.00,0.0
+290,"Fungus, Violet",Plant,Forest,Medium,0.25,0.25
+291,Galeb Duhr,Elemental,Cave,Medium,6.00,6.0
+292,Gargoyle,Elemental,"Cave, Sky",Medium,2.00,2.0
+293,"Gargoyle, Giant Four-Armed",Elemental,"Cave, Sky",Large,10.00,10.0
+294,"Genie, Dao",Elemental,"Cave, Sky, Underground",Large,11.00,11.0
+295,"Genie, Djinni",Elemental,"Cave, Sky",Large,11.00,11.0
+296,"Genie, Efreeti",Elemental,"Cave, Sky",Large,11.00,11.0
+297,"Genie, Marid",Elemental,"Cave, Sky, Water",Large,11.00,11.0
+298,Geonid,Elemental,Cave,Small,0.25,0.25
+299,Ghost,Undead,"Dungeon, Sky",Medium,4.00,4.0
+300,Ghoul,Undead,Dungeon,Medium,1.00,1.0
+301,"Ghoul, Ghast",Undead,Dungeon,Medium,2.00,2.0
+302,Giant Crayfish,Beast,"Forest, Plains, Water",Large,2.00,2.0
+303,Giant Fly,Beast,"Forest, Plains, Sky",Large,0.00,0.0
+304,Giant Ice Toad,Monstrosity,"Forest, Mountain",Large,3.00,3.0
+305,Giant Lightning Eel,Beast,"Forest, Plains, Water",Large,3.00,3.0
+306,Giant Snapping Turtle,Beast,"Forest, Plains, Water",Large,3.00,3.0
+307,Giant Strider,Monstrosity,"Forest, Mountain",Large,1.00,1.0
+308,Giant Subterranean Lizard,Beast,"Forest, Plains, Water",Huge,4.00,4.0
+309,"Giant, Cloud",Giant,"Forest, Plains",Huge,9.00,9.0
+310,"Giant, Cloud, Smiling One",Giant,"Forest, Plains",Huge,11.00,11.0
+311,"Giant, Fire",Giant,"Forest, Plains",Huge,9.00,9.0
+312,"Giant, Fire, Dreadnought",Giant,"Forest, Plains",Huge,14.00,14.0
+313,"Giant, Frost",Giant,"Forest, Plains",Huge,8.00,8.0
+314,"Giant, Frost, Everlasting One",Giant,"Forest, Plains",Huge,12.00,12.0
+315,"Giant, Hill",Giant,"Forest, Plains",Huge,5.00,5.0
+316,"Giant, Hill, Mouth of Grolantor",Giant,"Forest, Plains",Huge,6.00,6.0
+317,"Giant, Stone",Giant,"Forest, Plains",Huge,7.00,7.0
+318,"Giant, Stone, Dreamwalker",Giant,"Forest, Plains",Huge,10.00,10.0
+319,"Giant, Storm",Giant,"Forest, Plains, Water",Huge,13.00,13.0
+320,"Giant, Storm, Quintessent",Giant,"Forest, Plains, Sky, Water",Huge,16.00,16.0
+321,Gibbering Mouther,Aberration,"Dungeon, Underground, Water",Medium,2.00,2.0
+322,Giff,Humanoid,"Forest, Plains, Urban",Medium,3.00,3.0
+323,Girallon,Monstrosity,"Forest, Mountain",Large,4.00,4.0
+324,Githyanki Gish,Humanoid,"Forest, Plains, Urban",Medium,10.00,10.0
+325,Githyanki Kith'Rak,Humanoid,"Forest, Plains, Urban",Medium,12.00,12.0
+326,Githyanki Knight,Humanoid,"Forest, Plains, Urban",Medium,8.00,8.0
+327,Githyanki Supreme Commander,Humanoid,"Forest, Plains, Urban",Medium,14.00,14.0
+328,Githyanki Warrior,Humanoid,"Forest, Plains, Urban",Medium,3.00,3.0
+329,Githzerai Anarch,Humanoid,"Forest, Plains, Urban",Medium,16.00,16.0
+330,Githzerai Enlightened,Humanoid,"Forest, Plains, Urban",Medium,10.00,10.0
+331,Githzerai Monk,Humanoid,"Forest, Plains, Urban",Medium,2.00,2.0
+332,Githzerai Zerth,Humanoid,"Forest, Plains, Urban",Medium,6.00,6.0
+333,Gnoll,Humanoid,"Forest, Plains, Urban",Medium,0.50,0.5
+334,Gnoll Fang of Yeenoghu,Humanoid,"Forest, Plains, Urban",Medium,4.00,4.0
+335,Gnoll Flesh Gnawer,Humanoid,"Forest, Plains, Urban",Medium,1.00,1.0
+336,Gnoll Hunter,Humanoid,"Forest, Plains, Urban",Medium,0.50,0.5
+337,Gnoll Pack Lord,Humanoid,"Forest, Plains, Urban",Medium,2.00,2.0
+338,Gnoll Witherling,Undead,Dungeon,Medium,0.25,0.25
+339,"Gnoll, Flind",Humanoid,"Forest, Plains, Urban",Medium,9.00,9.0
+340,"Gnome, Deep (Svirfneblin)",Humanoid,"Forest, Plains, Urban",Small,0.50,0.5
+341,Goblin,Humanoid,"Forest, Plains, Urban",Small,0.25,0.25
+342,Goblin Boss,Humanoid,"Forest, Plains, Urban",Small,1.00,1.0
+343,"Golem, Clay",Construct,"Dungeon, Urban",Large,9.00,9.0
+344,"Golem, Flesh",Construct,"Dungeon, Urban",Medium,5.00,5.0
+345,"Golem, Iron",Construct,"Dungeon, Urban",Large,16.00,16.0
+346,"Golem, Stone",Construct,"Dungeon, Urban",Large,10.00,10.0
+347,Gorgon,Monstrosity,"Forest, Mountain",Large,5.00,5.0
+348,Gray Render,Monstrosity,"Forest, Mountain",Large,12.00,12.0
+349,Grell,Aberration,"Dungeon, Sky, Underground",Medium,3.00,3.0
+350,Grick,Monstrosity,"Forest, Mountain",Medium,2.00,2.0
+351,Grick Alpha,Monstrosity,"Forest, Mountain",Medium,7.00,7.0
+352,Griffon,Monstrosity,"Forest, Mountain, Sky",Large,2.00,2.0
+353,Grimlock,Humanoid,"Forest, Plains, Urban",Medium,0.25,0.25
+354,Grung,Humanoid,"Forest, Plains, Urban",Small,0.25,0.25
+355,Grung Elite Warrior,Humanoid,"Forest, Plains, Urban",Small,2.00,2.0
+356,Grung Wildling,Humanoid,"Forest, Plains, Urban",Small,1.00,1.0
+357,Guard Drake,Dragon,"Mountain, Sky",Medium,2.00,2.0
+358,Guardian Portrait,Construct,"Dungeon, Urban",Medium,1.00,1.0
+359,"Hag, Annis",Fey,"Forest, Plains",Large,6.00,6.0
+360,"Hag, Bheur",Fey,"Forest, Plains",Medium,7.00,7.0
+361,"Hag, Green",Fey,"Forest, Plains",Medium,3.00,3.0
+362,"Hag, Night",Fiend,Hell,Medium,5.00,5.0
+363,"Hag, Sea",Fey,Water,Medium,2.00,2.0
+364,Half-Dragon Template,Temp,"Mountain, Sky",Temp,TEMP,0.0
+365,Harpy,Monstrosity,"Forest, Mountain, Sky",Medium,1.00,1.0
+366,Hell Hound,Fiend,Hell,Medium,3.00,3.0
+367,Helmed Horror,Construct,"Dungeon, Sky, Urban",Medium,4.00,4.0
+368,Hippogriff,Monstrosity,"Forest, Mountain, Sky",Large,1.00,1.0
+369,Hobgoblin,Humanoid,"Forest, Plains, Urban",Medium,0.50,0.5
+370,Hobgoblin Captain,Humanoid,"Forest, Plains, Urban",Medium,3.00,3.0
+371,Hobgoblin Devastator,Humanoid,"Forest, Plains, Urban",Medium,4.00,4.0
+372,Hobgoblin Iron Shadow,Humanoid,"Forest, Plains, Urban",Medium,2.00,2.0
+373,Hobgoblin Warlord,Humanoid,"Forest, Plains, Urban",Medium,6.00,6.0
+374,Homunculus,Construct,"Dungeon, Sky, Urban",Tiny,0.00,0.0
+375,Hook Horror,Monstrosity,"Forest, Mountain",Large,3.00,3.0
+376,Howler,Fiend,Hell,Large,8.00,8.0
+377,Howling Hatred Initiate,Humanoid,"Forest, Plains, Urban",Medium,0.13,0.13
+378,Howling Hatred Priest,Humanoid,"Forest, Plains, Urban",Medium,2.00,2.0
+379,"Howling Hatred, Feathergale Knight",Humanoid,"Forest, Plains, Urban",Medium,1.00,1.0
+380,"Howling Hatred, Hurricane",Humanoid,"Forest, Plains, Urban",Medium,2.00,2.0
+381,"Howling Hatred, Skyweaver",Humanoid,"Forest, Plains, Urban",Medium,3.00,3.0
+382,Hulking Crab,Beast,"Forest, Plains, Water",Huge,5.00,5.0
+383,Hydra,Monstrosity,"Forest, Mountain, Water",Huge,8.00,8.0
+384,Ice Toad,Monstrosity,"Forest, Mountain, Water",Medium,1.00,1.0
+385,"Inevitable, Marut",Construct,"Dungeon, Sky, Urban",Large,25.00,25.0
+386,Intellect Devourer,Aberration,"Dungeon, Underground",Tiny,2.00,2.0
+387,Invisible Stalker,Elemental,"Cave, Sky",Medium,6.00,6.0
+388,Ixitxachitl,Aberration,"Dungeon, Underground, Water",Small,0.25,0.25
+389,"Ixitxachitl, Vampiric",Aberration,"Dungeon, Underground, Water",Medium,2.00,2.0
+390,Jackalwere,Humanoid,"Forest, Plains, Urban",Medium,0.50,0.5
+391,Jaculi,Beast,"Forest, Plains",Large,0.50,0.5
+392,Kalka-Kylla,Monstrosity,"Forest, Mountain, Water",Large,3.00,3.0
+393,Kamadan,Monstrosity,"Forest, Mountain",Large,4.00,4.0
+394,Kelpie,Plant,"Forest, Water",Medium,4.00,4.0
+395,Kenku,Humanoid,"Forest, Plains, Urban",Medium,0.25,0.25
+396,Ki-Rin,Celestial,"Plains, Sky",Huge,12.00,12.0
+397,Kobold,Humanoid,"Forest, Plains, Urban",Small,0.13,0.13
+398,Kobold Dragonshield,Humanoid,"Mountain, Sky",Small,1.00,1.0
+399,Kobold Inventor,Humanoid,"Forest, Plains, Urban",Small,0.25,0.25
+400,Kobold Scale Sorcerer,Humanoid,"Forest, Plains, Urban",Small,1.00,1.0
+401,"Kobold, Winged",Humanoid,"Forest, Plains, Sky, Urban",Small,0.25,0.25
+402,Korred,Fey,"Forest, Plains, Underground",Small,7.00,7.0
+403,Kraken,Monstrosity,Water,Gargantuan,23.00,23.0
+404,"Kraken, Malformed",Monstrosity,Water,Huge,10.00,10.0
+405,Kruthik Hive Lord,Monstrosity,"Forest, Mountain, Underground",Large,5.00,5.0
+406,"Kruthik, Adult",Monstrosity,"Forest, Mountain, Underground",Medium,2.00,2.0
+407,"Kruthik, Young",Monstrosity,"Forest, Mountain, Underground",Small,0.13,0.13
+408,Kuo-Toa,Humanoid,"Forest, Plains, Urban, Water",Medium,0.25,0.25
+409,Kuo-Toa Archpriest,Humanoid,"Forest, Plains, Urban, Water",Medium,6.00,6.0
+410,Kuo-Toa Whip,Humanoid,"Forest, Plains, Urban, Water",Medium,1.00,1.0
+411,Lamia,Monstrosity,"Forest, Mountain",Large,4.00,4.0
+412,Leucrotta,Monstrosity,"Forest, Mountain",Large,3.00,3.0
+413,Lich,Undead,Dungeon,Medium,21.00,21.0
+414,Lizard King/Queen,Humanoid,"Forest, Plains, Urban, Water",Medium,4.00,4.0
+415,Lizardfolk,Humanoid,"Forest, Plains, Urban, Water",Medium,0.50,0.5
+416,Lizardfolk Shaman,Humanoid,"Forest, Plains, Urban, Water",Medium,2.00,2.0
+417,"Lycanthrope, Werebear",Humanoid,"Forest, Plains, Urban",Medium,5.00,5.0
+418,"Lycanthrope, Wereboar",Humanoid,"Forest, Plains, Urban",Medium,4.00,4.0
+419,"Lycanthrope, Wererat",Humanoid,"Forest, Plains, Urban",Medium,2.00,2.0
+420,"Lycanthrope, Wereraven",Humanoid Humanoid,"Forest, Plains, Urban",Medium,2.00,2.0
+421,"Lycanthrope, Weretiger",Humanoid,"Forest, Plains, Urban",Medium,4.00,4.0
+422,"Lycanthrope, Werewolf",Humanoid,"Forest, Plains, Urban",Medium,3.00,3.0
+423,Magmin,Elemental,Cave,Small,0.50,0.5
+424,Manticore,Monstrosity,"Forest, Mountain, Sky",Large,3.00,3.0
+425,Mantrap,Plant,Forest,Large,1.00,1.0
+426,Meazel,Humanoid,"Forest, Plains, Urban",Medium,1.00,1.0
+427,Medusa,Monstrosity,"Forest, Mountain",Medium,6.00,6.0
+428,Meenlock,Fey,"Forest, Plains",Small,2.00,2.0
+429,"Mephit, Dust",Elemental,"Cave, Sky",Small,0.50,0.5
+430,"Mephit, Ice",Elemental,"Cave, Sky",Small,0.50,0.5
+431,"Mephit, Magma",Elemental,"Cave, Sky",Small,0.50,0.5
+432,"Mephit, Mud",Elemental,"Cave, Sky, Water",Small,0.25,0.25
+433,"Mephit, Smoke",Elemental,"Cave, Sky",Small,0.25,0.25
+434,"Mephit, Steam",Elemental,"Cave, Sky",Small,0.25,0.25
+435,Merfolk,Humanoid,Water,Medium,0.13,0.13
+436,Merrow,Monstrosity,"Forest, Mountain, Water",Large,2.00,2.0
+437,Mimic,Monstrosity,"Forest, Mountain",Medium,2.00,2.0
+438,Mind Flayer,Aberration,"Dungeon, Underground",Medium,7.00,7.0
+439,Mind Flayer Lich (Illithilich),Undead,Dungeon,Medium,22.00,22.0
+440,"Mind Flayer, Alhoon",Undead,Dungeon,Medium,10.00,10.0
+441,"Mind Flayer, Elder Brain",Aberration,"Dungeon, Underground, Water",Large,14.00,14.0
+442,"Mind Flayer, Ulitharid",Aberration,"Dungeon, Underground",Large,9.00,9.0
+443,Mindwitness,Aberration,"Dungeon, Sky, Underground",Large,5.00,5.0
+444,Minotaur,Monstrosity,"Forest, Mountain",Large,3.00,3.0
+445,"Misc. Creature, Ape",Beast,"Forest, Plains",Medium,0.50,0.5
+446,"Misc. Creature, Awakened Shrub",Plant,Forest,Small,0.00,0.0
+447,"Misc. Creature, Awakened Tree",Plant,Forest,Huge,2.00,2.0
+448,"Misc. Creature, Axe Beak",Beast,"Forest, Plains",Large,0.25,0.25
+449,"Misc. Creature, Baboon",Beast,"Forest, Plains",Small,0.00,0.0
+450,"Misc. Creature, Badger",Beast,"Forest, Plains, Underground",Tiny,0.00,0.0
+451,"Misc. Creature, Bat",Beast,"Forest, Plains, Sky",Tiny,0.00,0.0
+452,"Misc. Creature, Black Bear",Beast,"Forest, Plains",Medium,0.50,0.5
+453,"Misc. Creature, Blink Dog",Fey,"Forest, Plains",Medium,0.25,0.25
+454,"Misc. Creature, Blood Hawk",Beast,"Forest, Plains, Sky",Small,0.13,0.13
+455,"Misc. Creature, Boar",Beast,"Forest, Plains",Medium,0.25,0.25
+456,"Misc. Creature, Brown Bear",Beast,"Forest, Plains",Large,1.00,1.0
+457,"Misc. Creature, Camel",Beast,"Forest, Plains",Large,0.13,0.13
+458,"Misc. Creature, Cat",Beast,"Forest, Plains",Tiny,0.00,0.0
+459,"Misc. Creature, Constrictor Snake",Beast,"Forest, Plains, Water",Large,0.25,0.25
+460,"Misc. Creature, Crab",Beast,"Forest, Plains, Water",Tiny,0.00,0.0
+461,"Misc. Creature, Crocodile",Beast,"Forest, Plains, Water",Large,0.50,0.5
+462,"Misc. Creature, Death Dog",Monstrosity,"Forest, Mountain",Medium,1.00,1.0
+463,"Misc. Creature, Deer",Beast,"Forest, Plains",Medium,0.00,0.0
+464,"Misc. Creature, Dire Wolf",Beast,"Forest, Plains",Large,1.00,1.0
+465,"Misc. Creature, Draft Horse",Beast,"Forest, Plains",Large,0.25,0.25
+466,"Misc. Creature, Eagle",Beast,"Forest, Plains, Sky",Small,0.00,0.0
+467,"Misc. Creature, Elephant",Beast,"Forest, Plains",Huge,4.00,4.0
+468,"Misc. Creature, Elk",Beast,"Forest, Plains",Large,0.25,0.25
+469,"Misc. Creature, Flying Snake",Beast,"Forest, Plains, Sky, Water",Tiny,0.13,0.13
+470,"Misc. Creature, Frog",Beast,"Forest, Plains, Water",Tiny,0.00,0.0
+471,"Misc. Creature, Giant Ape",Beast,"Forest, Plains",Huge,7.00,7.0
+472,"Misc. Creature, Giant Badger",Beast,"Forest, Plains, Underground",Medium,0.25,0.25
+473,"Misc. Creature, Giant Bat",Beast,"Forest, Plains, Sky",Large,0.25,0.25
+474,"Misc. Creature, Giant Boar",Beast,"Forest, Plains",Large,2.00,2.0
+475,"Misc. Creature, Giant Centipede",Beast,"Forest, Plains",Small,0.25,0.25
+476,"Misc. Creature, Giant Constrictor Snake",Beast,"Forest, Plains, Water",Huge,2.00,2.0
+477,"Misc. Creature, Giant Crab",Beast,"Forest, Plains, Water",Medium,0.13,0.13
+478,"Misc. Creature, Giant Crocodile",Beast,"Forest, Plains, Water",Huge,5.00,5.0
+479,"Misc. Creature, Giant Eagle",Beast,"Forest, Plains, Sky",Large,1.00,1.0
+480,"Misc. Creature, Giant Elk",Beast,"Forest, Plains",Huge,2.00,2.0
+481,"Misc. Creature, Giant Fire Beetle",Beast,"Forest, Plains",Small,0.00,0.0
+482,"Misc. Creature, Giant Frog",Beast,"Forest, Plains, Water",Medium,0.25,0.25
+483,"Misc. Creature, Giant Goat",Beast,"Forest, Plains",Large,0.50,0.5
+484,"Misc. Creature, Giant Hyena",Beast,"Forest, Plains",Large,1.00,1.0
+485,"Misc. Creature, Giant Lizard",Beast,"Forest, Plains",Large,0.25,0.25
+486,"Misc. Creature, Giant Octopus",Beast,"Forest, Plains, Water",Large,1.00,1.0
+487,"Misc. Creature, Giant Owl",Beast,"Forest, Plains, Sky",Large,0.25,0.25
+488,"Misc. Creature, Giant Poisonous Snake",Beast,"Forest, Plains, Water",Medium,0.25,0.25
+489,"Misc. Creature, Giant Rat",Beast,"Forest, Plains",Small,0.13,0.13
+490,"Misc. Creature, Giant Scorpion",Beast,"Forest, Plains",Large,3.00,3.0
+491,"Misc. Creature, Giant Sea Horse",Beast,Water,Large,0.50,0.5
+492,"Misc. Creature, Giant Shark",Beast,Water,Huge,5.00,5.0
+493,"Misc. Creature, Giant Spider",Beast,"Forest, Plains",Large,1.00,1.0
+494,"Misc. Creature, Giant Toad",Beast,"Forest, Plains, Water",Large,1.00,1.0
+495,"Misc. Creature, Giant Vulture",Beast,"Forest, Plains, Sky",Large,1.00,1.0
+496,"Misc. Creature, Giant Wasp",Beast,"Forest, Plains, Sky",Medium,0.50,0.5
+497,"Misc. Creature, Giant Weasel",Beast,"Forest, Plains",Medium,0.13,0.13
+498,"Misc. Creature, Giant Wolf Spider",Beast,"Forest, Plains",Medium,0.25,0.25
+499,"Misc. Creature, Goat",Beast,"Forest, Plains",Medium,0.00,0.0
+500,"Misc. Creature, Hawk",Beast,"Forest, Plains, Sky",Tiny,0.00,0.0
+501,"Misc. Creature, Hunter Shark",Beast,Water,Large,2.00,2.0
+502,"Misc. Creature, Hyena",Beast,"Forest, Plains",Medium,0.00,0.0
+503,"Misc. Creature, Jackal",Beast,"Forest, Plains",Small,0.00,0.0
+504,"Misc. Creature, Killer Whale",Beast,"Forest, Plains, Water",Huge,3.00,3.0
+505,"Misc. Creature, Lion",Beast,"Forest, Plains",Large,1.00,1.0
+506,"Misc. Creature, Lizard",Beast,"Forest, Plains",Tiny,0.00,0.0
+507,"Misc. Creature, Mammoth",Beast,"Forest, Plains",Huge,6.00,6.0
+508,"Misc. Creature, Mastiff",Beast,"Forest, Plains",Medium,0.13,0.13
+509,"Misc. Creature, Mule",Beast,"Forest, Plains",Medium,0.13,0.13
+510,"Misc. Creature, Octopus",Beast,"Forest, Plains, Water",Small,0.00,0.0
+511,"Misc. Creature, Owl",Beast,"Forest, Plains, Sky",Tiny,0.00,0.0
+512,"Misc. Creature, Panther",Beast,"Forest, Plains",Medium,0.25,0.25
+513,"Misc. Creature, Phase Spider",Monstrosity,"Forest, Mountain",Large,3.00,3.0
+514,"Misc. Creature, Poisonous Snake",Beast,"Forest, Plains, Water",Tiny,0.13,0.13
+515,"Misc. Creature, Polar Bear",Beast,"Forest, Plains, Water",Large,2.00,2.0
+516,"Misc. Creature, Pony",Beast,"Forest, Plains",Medium,0.13,0.13
+517,"Misc. Creature, Quipper",Beast,"Forest, Plains, Water",Tiny,0.00,0.0
+518,"Misc. Creature, Rat",Beast,"Forest, Plains",Tiny,0.00,0.0
+519,"Misc. Creature, Raven",Beast,"Forest, Plains, Sky",Tiny,0.00,0.0
+520,"Misc. Creature, Reef Shark",Beast,Water,Medium,0.50,0.5
+521,"Misc. Creature, Rhinoceros",Beast,"Forest, Plains",Large,2.00,2.0
+522,"Misc. Creature, Riding Horse",Beast,"Forest, Plains",Large,0.25,0.25
+523,"Misc. Creature, Saber-Toothed Tiger",Beast,"Forest, Plains",Large,2.00,2.0
+524,"Misc. Creature, Scorpion",Beast,"Forest, Plains",Tiny,0.00,0.0
+525,"Misc. Creature, Sea Horse",Beast,Water,Tiny,0.00,0.0
+526,"Misc. Creature, Spider",Beast,"Forest, Plains",Tiny,0.00,0.0
+527,"Misc. Creature, Swarm of Bats",Beast,"Forest, Plains, Sky",Medium,0.25,0.25
+528,"Misc. Creature, Swarm of Insects",Beast,"Forest, Plains",Medium,0.50,0.5
+529,"Misc. Creature, Swarm of Poisonous Snakes",Beast,"Forest, Plains, Water",Medium,2.00,2.0
+530,"Misc. Creature, Swarm of Quippers",Beast,"Forest, Plains, Water",Medium,1.00,1.0
+531,"Misc. Creature, Swarm of Rats",Beast,"Forest, Plains",Medium,0.25,0.25
+532,"Misc. Creature, Swarm of Ravens",Beast,"Forest, Plains, Sky",Medium,0.25,0.25
+533,"Misc. Creature, Tiger",Beast,"Forest, Plains",Large,1.00,1.0
+534,"Misc. Creature, Vulture",Beast,"Forest, Plains, Sky",Medium,0.00,0.0
+535,"Misc. Creature, Warhorse",Beast,"Forest, Plains",Large,0.50,0.5
+536,"Misc. Creature, Weasel",Beast,"Forest, Plains",Tiny,0.00,0.0
+537,"Misc. Creature, Winter Wolf",Monstrosity,"Forest, Mountain",Large,3.00,3.0
+538,"Misc. Creature, Wolf",Beast,"Forest, Plains",Medium,0.25,0.25
+539,"Misc. Creature, Worg",Monstrosity,"Forest, Mountain",Large,0.50,0.5
+540,"Modron, Duodrone",Construct,"Dungeon, Urban",Medium,0.25,0.25
+541,"Modron, Monodrone",Construct,"Dungeon, Sky, Urban",Medium,0.13,0.13
+542,"Modron, Pentadrone",Construct,"Dungeon, Urban",Large,2.00,2.0
+543,"Modron, Quadrone",Construct,"Dungeon, Sky, Urban",Medium,1.00,1.0
+544,"Modron, Tridrone",Construct,"Dungeon, Urban",Medium,0.50,0.5
+545,Mongrelfolk,Humanoid,"Forest, Plains, Urban",Medium,0.25,0.25
+546,Morkoth,Aberration,"Dungeon, Underground, Water",Medium,11.00,11.0
+547,Mummy,Undead,Dungeon,Medium,3.00,3.0
+548,Mummy Lord,Undead,Dungeon,Medium,15.00,15.0
+549,Myconid Adult,Plant,Forest,Medium,0.50,0.5
+550,Myconid Sovereign,Plant,Forest,Large,2.00,2.0
+551,Myconid Sprout,Plant,Forest,Small,0.00,0.0
+552,Naergoth Bladelord,Undead,Dungeon,Medium,11.00,11.0
+553,"Naga, Bone",Undead,Dungeon,Large,4.00,4.0
+554,"Naga, Guardian",Monstrosity,"Forest, Mountain",Large,10.00,10.0
+555,"Naga, Spirit",Monstrosity,"Forest, Mountain",Large,8.00,8.0
+556,Nagpa,Humanoid,"Forest, Plains, Urban",Medium,17.00,17.0
+557,Neogi,Aberration,"Dungeon, Underground",Small,3.00,3.0
+558,Neogi Hatchling,Aberration,"Dungeon, Underground",Tiny,0.13,0.13
+559,Neogi Master,Aberration,"Dungeon, Underground",Medium,4.00,4.0
+560,Neothelid,Aberration,"Dungeon, Underground",Gargantuan,13.00,13.0
+561,Nereid,Fey,"Forest, Plains, Water",Medium,2.00,2.0
+562,Nightmare,Fiend,"Hell, Sky",Large,3.00,3.0
+563,Nightwalker,Undead,"Dungeon, Sky",Huge,20.00,20.0
+564,Nilbog,Humanoid,"Forest, Plains, Urban",Small,1.00,1.0
+565,Nothic,Aberration,"Dungeon, Underground",Medium,2.00,2.0
+566,"NPC, Abjurer",Humanoid,"Forest, Plains, Urban",Medium,9.00,9.0
+567,"NPC, Acolyte",Humanoid,"Forest, Plains, Urban",Medium,0.25,0.25
+568,"NPC, Apprentice Wizard",Humanoid,"Forest, Plains, Urban",Medium,0.25,0.25
+569,"NPC, Archdruid",Humanoid,"Forest, Plains, Urban",Medium,12.00,12.0
+570,"NPC, Archer",Humanoid,"Forest, Plains, Urban",Medium,3.00,3.0
+571,"NPC, Archmage",Humanoid,"Forest, Plains, Urban",Medium,12.00,12.0
+572,"NPC, Assassin",Humanoid,"Forest, Plains, Urban",Medium,8.00,8.0
+573,"NPC, Bandit",Humanoid,"Forest, Plains, Urban",Medium,0.13,0.13
+574,"NPC, Bandit Captain",Humanoid,"Forest, Plains, Urban",Medium,2.00,2.0
+575,"NPC, Bard",Humanoid,"Forest, Plains, Urban",Medium,2.00,2.0
+576,"NPC, Berserker",Humanoid,"Forest, Plains, Urban",Medium,2.00,2.0
+577,"NPC, Blackguard",Humanoid,"Forest, Plains, Urban",Medium,8.00,8.0
+578,"NPC, Champion",Humanoid,"Forest, Plains, Urban",Medium,9.00,9.0
+579,"NPC, Commoner",Humanoid,"Forest, Plains, Urban",Medium,0.00,0.0
+580,"NPC, Conjurer",Humanoid,"Forest, Plains, Urban",Medium,6.00,6.0
+581,"NPC, Cult Fanatic",Humanoid,"Forest, Plains, Urban",Medium,2.00,2.0
+582,"NPC, Cultist",Humanoid,"Forest, Plains, Urban",Medium,0.13,0.13
+583,"NPC, Diviner",Humanoid,"Forest, Plains, Urban",Medium,8.00,8.0
+584,"NPC, Druid",Humanoid,"Forest, Plains, Urban",Medium,2.00,2.0
+585,"NPC, Enchanter",Humanoid,"Forest, Plains, Urban",Medium,5.00,5.0
+586,"NPC, Evoker",Humanoid,"Forest, Plains, Urban",Medium,9.00,9.0
+587,"NPC, Gladiator",Humanoid,"Forest, Plains, Urban",Medium,5.00,5.0
+588,"NPC, Guard",Humanoid,"Forest, Plains, Urban",Medium,0.13,0.13
+589,"NPC, Illusionist",Humanoid,"Forest, Plains, Urban",Medium,3.00,3.0
+590,"NPC, Knight",Humanoid,"Forest, Plains, Urban",Medium,3.00,3.0
+591,"NPC, Kraken Priest",Humanoid,Water,Medium,5.00,5.0
+592,"NPC, Mage",Humanoid,"Forest, Plains, Urban",Medium,6.00,6.0
+593,"NPC, Martial Arts Adept",Humanoid,"Forest, Plains, Urban",Medium,3.00,3.0
+594,"NPC, Master Thief",Humanoid,"Forest, Plains, Urban",Medium,5.00,5.0
+595,"NPC, Necromancer",Humanoid,"Forest, Plains, Urban",Medium,9.00,9.0
+596,"NPC, Noble",Humanoid,"Forest, Plains, Urban",Medium,0.13,0.13
+597,"NPC, Priest",Humanoid,"Forest, Plains, Urban",Medium,2.00,2.0
+598,"NPC, Scout",Humanoid,"Forest, Plains, Urban",Medium,0.50,0.5
+599,"NPC, Spy",Humanoid,"Forest, Plains, Urban",Medium,1.00,1.0
+600,"NPC, Swashbuckler",Humanoid,"Forest, Plains, Urban",Medium,3.00,3.0
+601,"NPC, Thug",Humanoid,"Forest, Plains, Urban",Medium,0.50,0.5
+602,"NPC, Transmuter",Humanoid,"Forest, Plains, Urban",Medium,5.00,5.0
+603,"NPC, Tribal Warrior",Humanoid,"Forest, Plains, Urban",Medium,0.13,0.13
+604,"NPC, Veteran",Humanoid,"Forest, Plains, Urban",Medium,3.00,3.0
+605,"NPC, War Priest",Humanoid,"Forest, Plains, Urban",Medium,9.00,9.0
+606,"NPC, Warlock of the Archfey",Humanoid,"Forest, Plains, Urban",Medium,4.00,4.0
+607,"NPC, Warlock of the Fiend",Humanoid,"Forest, Plains, Urban",Medium,7.00,7.0
+608,"NPC, Warlock of the Great Old One",Humanoid,"Forest, Plains, Urban",Medium,6.00,6.0
+609,"NPC, Warlord",Humanoid,"Forest, Plains, Urban",Medium,12.00,12.0
+610,Oblex Spawn,Ooze,"Cave, Dungeon",Tiny,0.25,0.25
+611,"Oblex, Adult",Ooze,"Cave, Dungeon",Medium,5.00,5.0
+612,"Oblex, Elder",Ooze,"Cave, Dungeon",Huge,10.00,10.0
+613,Ogre,Giant,"Forest, Plains",Large,2.00,2.0
+614,Ogre Battering Ram,Giant,"Forest, Plains",Large,4.00,4.0
+615,Ogre Bolt Launcher,Giant,"Forest, Plains",Large,2.00,2.0
+616,Ogre Chain Brute,Giant,"Forest, Plains",Large,3.00,3.0
+617,Ogre Howdah,Giant,"Forest, Plains",Large,2.00,2.0
+618,"Ogre, Half",Giant,"Forest, Plains",Large,1.00,1.0
+619,Oni,Giant,"Forest, Plains, Sky",Large,7.00,7.0
+620,Ooze Master,Undead,Dungeon,Huge,10.00,10.0
+621,"Ooze, Black Pudding",Ooze,"Cave, Dungeon",Large,4.00,4.0
+622,"Ooze, Gelatinous Cube",Ooze,"Cave, Dungeon",Large,2.00,2.0
+623,"Ooze, Gray",Ooze,"Cave, Dungeon",Medium,0.50,0.5
+624,"Ooze, Ochre Jelly",Ooze,"Cave, Dungeon",Large,2.00,2.0
+625,Orc,Humanoid,"Forest, Plains, Urban",Medium,0.50,0.5
+626,Orc Blade of Ilneval,Humanoid,"Forest, Plains, Urban",Medium,4.00,4.0
+627,Orc Claw of Luthic,Humanoid,"Forest, Plains, Urban",Medium,2.00,2.0
+628,Orc Eye of Gruumsh,Humanoid,"Forest, Plains, Urban",Medium,2.00,2.0
+629,Orc Hand of Yurtrus,Humanoid,"Forest, Plains, Urban",Medium,2.00,2.0
+630,Orc Nurtured One of Yurtrus,Humanoid,"Forest, Plains, Urban",Medium,0.50,0.5
+631,Orc Red Fang of Shargaas,Humanoid,"Forest, Plains, Urban",Medium,3.00,3.0
+632,Orc War Chief,Humanoid,"Forest, Plains, Urban",Medium,4.00,4.0
+633,"Orc, Orog",Humanoid,"Forest, Plains, Urban",Medium,2.00,2.0
+634,"Orc, Tanarukk",Fiend,Hell,Medium,5.00,5.0
+635,Otyugh,Aberration,"Dungeon, Underground",Large,5.00,5.0
+636,Owlbear,Monstrosity,"Forest, Plains",Large,3.00,3.0
+637,Pegasus,Celestial,"Plains, Sky",Large,2.00,2.0
+638,Peryton,Monstrosity,"Forest, Mountain, Sky",Medium,2.00,2.0
+639,Phantom Warrior,Undead,Dungeon,Medium,3.00,3.0
+640,Piercer,Monstrosity,"Forest, Mountain",Medium,0.50,0.5
+641,Pixie,Fey,"Forest, Plains, Sky",Tiny,0.25,0.25
+642,"Prince of Apocalypse, Imix",Elemental,"Cave, Sky",Huge,19.00,19.0
+643,"Prince of Apocalypse, Ogremoch",Elemental,"Cave, Underground",Gargantuan,20.00,20.0
+644,"Prince of Apocalypse, Olhydra",Elemental,"Cave, Water",Huge,18.00,18.0
+645,"Prince of Apocalypse, Yan-C-BIn",Elemental,"Cave, Sky",Huge,18.00,18.0
+646,Pseudodragon,Dragon,"Mountain, Sky",Tiny,0.25,0.25
+647,Pterafolk,Monstrosity,"Forest, Mountain, Sky",Large,1.00,1.0
+648,Purple Worm,Monstrosity,"Forest, Mountain, Underground",Gargantuan,15.00,15.0
+649,"Purple Worm, Wormling",Monstrosity,"Forest, Mountain",Large,2.00,2.0
+650,Quaggoth,Humanoid,"Forest, Plains, Urban",Medium,2.00,2.0
+651,Quickling,Fey,"Forest, Plains",Tiny,1.00,1.0
+652,Rakshasa,Fiend,Hell,Medium,13.00,13.0
+653,Redcap,Fey,"Forest, Plains",Small,3.00,3.0
+654,Remorhaz,Monstrosity,"Forest, Mountain, Underground",Huge,11.00,11.0
+655,"Remorhaz, Young",Monstrosity,"Forest, Mountain, Underground",Large,5.00,5.0
+656,Retriever,Construct,"Dungeon, Urban",Large,14.00,14.0
+657,Revenant,Undead,Dungeon,Medium,5.00,5.0
+658,Roc,Monstrosity,"Forest, Mountain, Sky",Gargantuan,11.00,11.0
+659,Roper,Monstrosity,"Forest, Mountain",Large,5.00,5.0
+660,Rust Monster,Monstrosity,"Forest, Mountain",Medium,0.50,0.5
+661,Sahuagin,Humanoid,Water,Medium,0.50,0.5
+662,Sahuagin Baron,Humanoid,Water,Large,5.00,5.0
+663,Sahuagin Priestess,Humanoid,Water,Medium,2.00,2.0
+664,Salamander,Elemental,Cave,Large,5.00,5.0
+665,"Salamander, Fire Snake",Elemental,Cave,Medium,1.00,1.0
+666,"Salamander, Frost",Elemental,"Cave, Underground",Huge,9.00,9.0
+667,Satyr,Fey,"Forest, Plains",Medium,0.50,0.5
+668,Scarecrow,Construct,"Dungeon, Urban",Medium,1.00,1.0
+669,Sea Lion,Monstrosity,Water,Large,5.00,5.0
+670,Sea Spawn,Humanoid,Water,Medium,1.00,1.0
+671,Shadar-Kai Gloom Weaver,Humanoid,"Forest, Plains, Urban",Medium,9.00,9.0
+672,Shadar-Kai Shadow Dancer,Humanoid,"Forest, Plains, Urban",Medium,7.00,7.0
+673,Shadar-Kai Soul Monger,Humanoid,"Forest, Plains, Urban",Medium,11.00,11.0
+674,Shadow,Undead,Dungeon,Medium,0.50,0.5
+675,Shadow Dragon Template,Dragon,"Mountain, Sky",Varies,13.00,13.0
+676,Shadow Mastiff,Monstrosity,"Forest, Mountain",Medium,2.00,2.0
+677,Shadow Mastiff Alpha,Monstrosity,"Forest, Mountain",Medium,2.00,2.0
+678,Shambling Mound,Plant,"Forest, Water",Large,5.00,5.0
+679,Shield Guardian,Construct,"Dungeon, Urban",Large,7.00,7.0
+680,Siren,Fey,"Forest, Plains, Water",Medium,3.00,3.0
+681,Skeleton,Undead,Dungeon,Medium,0.25,0.25
+682,"Skeleton, Giant",Undead,Dungeon,Huge,7.00,7.0
+683,"Skeleton, Minotaur",Undead,Dungeon,Large,2.00,2.0
+684,"Skeleton, Warhorse",Undead,Dungeon,Large,0.50,0.5
+685,Skulk,Humanoid,"Forest, Plains, Urban",Medium,0.50,0.5
+686,Skull Lord,Undead,Dungeon,Medium,15.00,15.0
+687,Slaad Tadpole,Aberration,"Dungeon, Underground",Tiny,0.13,0.13
+688,"Slaad, Blue",Aberration,"Dungeon, Underground",Large,7.00,7.0
+689,"Slaad, Death",Aberration,"Dungeon, Underground",Medium,10.00,10.0
+690,"Slaad, Gray",Aberration,"Dungeon, Underground",Medium,9.00,9.0
+691,"Slaad, Green",Aberration,"Dungeon, Underground",Large,8.00,8.0
+692,"Slaad, Red",Aberration,"Dungeon, Underground",Large,5.00,5.0
+693,Slithering Tracker,Ooze,"Cave, Dungeon, Water",Medium,3.00,3.0
+694,"Sorrowsworn, The Angry",Monstrosity,"Forest, Mountain",Medium,13.00,13.0
+695,"Sorrowsworn, The Hungry",Monstrosity,"Forest, Mountain",Medium,11.00,11.0
+696,"Sorrowsworn, The Lonely",Monstrosity,"Forest, Mountain",Medium,9.00,9.0
+697,"Sorrowsworn, The Lost",Monstrosity,"Forest, Mountain",Medium,7.00,7.0
+698,"Sorrowsworn, The Wretched",Monstrosity,"Forest, Mountain",Small,0.25,0.25
+699,Spawn of Kyuss,Undead,Dungeon,Medium,5.00,5.0
+700,Specter,Undead,"Dungeon, Sky",Medium,1.00,1.0
+701,"Sphinx, Andro",Monstrosity,"Forest, Mountain, Sky",Large,17.00,17.0
+702,"Sphinx, Gyno",Monstrosity,"Forest, Mountain, Sky",Large,11.00,11.0
+703,Spore Servant Template,Plant,Forest,Temp,TEMP,0.0
+704,Sprite,Fey,"Forest, Plains, Sky",Tiny,0.25,0.25
+705,Star Spawn Grue,Aberration,"Dungeon, Underground",Small,0.25,0.25
+706,Star Spawn Hulk,Aberration,"Dungeon, Underground",Large,10.00,10.0
+707,Star Spawn Larva Mage,Aberration,"Dungeon, Underground",Medium,16.00,16.0
+708,Star Spawn Mangler,Aberration,"Dungeon, Underground",Medium,5.00,5.0
+709,Star Spawn Seer,Aberration,"Dungeon, Underground",Medium,13.00,13.0
+710,"Steeder, Female",Monstrosity,"Forest, Mountain",Large,1.00,1.0
+711,"Steeder, Male",Monstrosity,"Forest, Mountain",Medium,0.25,0.25
+712,Steel Predator,Construct,"Dungeon, Urban",Large,16.00,16.0
+713,Stirge,Beast,"Forest, Plains, Sky",Tiny,0.13,0.13
+714,Stone Cursed,Construct,"Dungeon, Urban",Medium,1.00,1.0
+715,Stone Juggernaut,Construct,"Dungeon, Urban",Large,12.00,12.0
+716,Strahd's Animated Armor,Construct,"Dungeon, Urban",Medium,6.00,6.0
+717,Su-Monster,Monstrosity,"Forest, Mountain",Medium,1.00,1.0
+718,Succubus/Incubus,Fiend,"Hell, Sky",Medium,4.00,4.0
+719,Sword Wraith Commander,Undead,Dungeon,Medium,8.00,8.0
+720,Sword Wraith Warrior,Undead,Dungeon,Medium,3.00,3.0
+721,Tabaxi Hunter,Humanoid,"Forest, Plains, Urban",Medium,1.00,1.0
+722,Tabaxi Minstrel,Humanoid,"Forest, Plains, Urban",Medium,0.25,0.25
+723,Tarrasque,Monstrosity,"Forest, Mountain",Gargantuan,30.00,30.0
+724,Tecuziztecatl,Monstrosity,"Forest, Mountain",Large,4.00,4.0
+725,Thayan Apprentice,Humanoid,"Forest, Plains, Urban",Medium,2.00,2.0
+726,Thayan Warrior,Humanoid,"Forest, Plains, Urban",Medium,2.00,2.0
+727,Thorn Slinger,Plant,Forest,Large,0.50,0.5
+728,Thorny,Plant,Forest,Medium,1.00,1.0
+729,Thri-Kreen,Humanoid,"Forest, Plains, Urban",Medium,1.00,1.0
+730,Tiamat,Fiend,"Hell, Sky",Gargantuan,30.00,30.0
+731,Tiny Servant,Construct,"Dungeon, Urban",Tiny,1.00,1.0
+732,Tlincalli,Monstrosity,"Forest, Mountain",Large,5.00,5.0
+733,Topi,Undead,Dungeon,Small,0.50,0.5
+734,Tortle,Humanoid,"Forest, Plains, Urban",Medium,0.25,0.25
+735,Tortle Druid,Humanoid,"Forest, Plains, Urban",Medium,2.00,2.0
+736,Trapper,Monstrosity,"Forest, Mountain",Large,3.00,3.0
+737,Treant,Plant,Forest,Huge,9.00,9.0
+738,Tressym,Beast,"Forest, Plains, Sky",Tiny,0.00,0.0
+739,Tri-Flower Frond,Plant,Forest,Medium,0.50,0.5
+740,Troglodyte,Humanoid,"Forest, Plains, Urban",Medium,0.25,0.25
+741,Troglodyte Champion of Laogzed,Humanoid,"Forest, Plains, Urban",Medium,3.00,3.0
+742,Troll,Giant,"Forest, Plains",Large,5.00,5.0
+743,"Troll, Dire",Giant,"Forest, Plains",Huge,13.00,13.0
+744,"Troll, Rot",Giant,"Forest, Plains",Large,9.00,9.0
+745,"Troll, Spirit",Giant,"Forest, Plains",Large,11.00,11.0
+746,"Troll, Venom",Giant,"Forest, Plains",Large,7.00,7.0
+747,Umber Hulk,Monstrosity,"Forest, Mountain, Underground",Large,5.00,5.0
+748,Unicorn,Celestial,"Plains, Sky",Large,5.00,5.0
+749,Uthgardt Shaman,Humanoid,"Forest, Plains, Urban",Medium,2.00,2.0
+750,Vampire,Undead,Dungeon,Medium,13.00,13.0
+751,Vampire Spawn,Undead,Dungeon,Medium,5.00,5.0
+752,Vampiric Mist,Undead,"Dungeon, Sky",Medium,3.00,3.0
+753,Vargouille,Fiend,"Hell, Sky",Tiny,1.00,1.0
+754,Vegepygmy,Plant,Forest,Small,0.25,0.25
+755,Vegepygmy Chief,Plant,Forest,Small,2.00,2.0
+756,Water Weird,Elemental,Water,Large,3.00,3.0
+757,White Maw,Ooze,"Cave, Dungeon",Gargantuan,10.00,10.0
+758,Wight,Undead,Dungeon,Medium,3.00,3.0
+759,Will-O'-Wisp,Undead,"Dungeon, Sky",Tiny,2.00,2.0
+760,Wood Woad,Plant,Forest,Medium,5.00,5.0
+761,Wraith,Undead,"Dungeon, Sky",Medium,5.00,5.0
+762,Wyvern,Dragon,"Mountain, Sky",Large,6.00,6.0
+763,Xorn,Elemental,"Cave, Underground",Medium,5.00,5.0
+764,Xvart,Humanoid,"Forest, Plains, Urban",Small,0.13,0.13
+765,Xvart Speaker,Humanoid,"Forest, Plains, Urban",Small,0.13,0.13
+766,Xvart Warlock of Raxivort,Humanoid,"Forest, Plains, Urban",Small,1.00,1.0
+767,Yakfolk Priest,Monstrosity,"Forest, Mountain",Large,4.00,4.0
+768,Yakfolk Warrior,Monstrosity,"Forest, Mountain",Large,3.00,3.0
+769,Yellow Musk Creeper,Plant,Forest,Medium,2.00,2.0
+770,Yellow Musk Zombie,Undead,Dungeon,Medium,0.25,0.25
+771,Yeth Hound,Fey,"Forest, Plains, Sky",Large,4.00,4.0
+772,Yeti,Monstrosity,"Forest, Mountain",Large,3.00,3.0
+773,"Yeti, Abominable",Monstrosity,"Forest, Mountain",Huge,9.00,9.0
+774,Yuan-Ti Abomination,Monstrosity,"Forest, Mountain",Large,7.00,7.0
+775,Yuan-Ti Anathema,Monstrosity Monstrosity,"Forest, Mountain, Water",Huge,12.00,12.0
+776,Yuan-Ti Broodguard,Humanoid,"Forest, Plains, Urban",Medium,2.00,2.0
+777,Yuan-Ti Malison,Monstrosity,"Forest, Mountain",Medium,3.00,3.0
+778,Yuan-Ti Mind Whisperer,Monstrosity Monstrosity,"Forest, Mountain",Medium,4.00,4.0
+779,Yuan-Ti Nightmare Speaker,Monstrosity Monstrosity,"Forest, Mountain",Medium,4.00,4.0
+780,Yuan-Ti Pit Master,Monstrosity Monstrosity,"Forest, Mountain",Medium,5.00,5.0
+781,Yuan-Ti Pureblood,Monstrosity,"Forest, Mountain",Medium,1.00,1.0
+782,"Yugoloth, Arcana",Fiend,"Hell, Sky",Medium,12.00,12.0
+783,"Yugoloth, Cano",Fiend,Hell,Medium,8.00,8.0
+784,"Yugoloth, Dhergo",Fiend,Hell,Medium,7.00,7.0
+785,"Yugoloth, Hydro",Fiend,"Hell, Water",Medium,9.00,9.0
+786,"Yugoloth, Merreno",Fiend,"Hell, Water",Medium,3.00,3.0
+787,"Yugoloth, Mezzo",Fiend,Hell,Medium,5.00,5.0
+788,"Yugoloth, Nyca",Fiend,"Hell, Sky",Large,9.00,9.0
+789,"Yugoloth, Oino",Fiend,Hell,Medium,12.00,12.0
+790,"Yugoloth, Ultro",Fiend,"Hell, Sky",Medium,13.00,13.0
+791,"Yugoloth, Yagno",Fiend,Hell,Large,11.00,11.0
+792,Zombie,Undead,Dungeon,Medium,0.25,0.25
+793,"Zombie, Ankylosaurus",Undead,Dungeon,Huge,3.00,3.0
+794,"Zombie, Beholder",Undead,"Dungeon, Sky",Large,5.00,5.0
+795,"Zombie, Girallon",Undead,Dungeon,Large,3.00,3.0
+796,"Zombie, Greater",Undead,Dungeon,Medium,5.00,5.0
+797,"Zombie, Ogre",Undead,Dungeon,Large,2.00,2.0
+798,"Zombie, Strahd",Undead,Dungeon,Medium,1.00,1.0
+799,"Zombie, Tyrannosaurus",Undead,Dungeon,Huge,8.00,8.0
+800,Zorbo,Monstrosity,"Forest, Mountain",Small,0.50,0.5
+801,"Zuggtmoy, Bridesmaid",Plant,Forest,Medium,0.13,0.13
+802,"Zuggtmoy, Chamberlain",Plant,Forest,Large,2.00,2.0
