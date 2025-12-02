@@ -1,0 +1,4 @@
+venv
+.venv
+token.txt
+src/models/*
