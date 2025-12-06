@@ -1,0 +1,802 @@
+Aarakocra
+Aboleth
+Albino Dwarf Warrior
+Aldani (Lobsterfolk)
+Allip
+Almiraj
+Ambush Drake
+Angel, Deva
+Angel, Planetar
+Angel, Solar
+Animated Object, Armor
+Animated Object, Broom of Attack
+Animated Object, Flying Sword
+Animated Object, Rug of Smothering
+Animated Object, Table
+Ankheg
+Assassin Vine
+Assorted Beast, Aurochs
+Assorted Beast, Cattle
+Assorted Beast, Dolphin
+Assorted Beast, Swarm of Rot Grubs
+Astral Dreadnought
+Atropal
+Avatar of Death
+Awakened Zurkhwood
+Azer
+Baba Lysaga's Creeping Hut
+Balhannoth
+Banderhobb
+Banshee
+Barghest
+Basilisk
+Behir
+Beholder
+Beholder, Death Kiss
+Beholder, Death Tyrant
+Beholder, Gauth
+Beholder, Gazer
+Beholder, Spectator
+Berbalang
+Black Earth Guard
+Black Earth Priest
+Black Earth, Burrowshark
+Black Earth, Sacred Stone Monk
+Black Earth, Stonemelder
+Blight, Needle
+Blight, Tree
+Blight, Twig
+Blight, Vine
+Bodak
+Boggle
+Boneclaw
+Bugbear
+Bugbear Chief
+Bulette
+Bullywug
+Cadaver Collector
+Cambion
+Carrion Crawler
+Catoblepas
+Cave Fisher
+Centaur
+Centaur Mummy
+Chimera
+Chitine
+Chitine, Choldrith
+Choker
+Chuul
+Chwinga
+Cloaker
+Clockwork, Bronze Scout
+Clockwork, Iron Cobra
+Clockwork, Oaken Bolter
+Clockwork, Stone Defender
+Cockatrice
+Corpse Flower
+Couatl
+Crag Cat
+Cranium Rat
+Cranium Rat, Swarm
+Crawling Claw
+Crushing Wave Priest
+Crushing Wave Reaver
+Crushing Wave, Dark Tide Knight
+Crushing Wave, Fathomer
+Crushing Wave, One-Eyed Shiver
+Cyclops
+Darkling
+Darkling Elder
+Darkmantle
+Death Knight
+Deathlock
+Deathlock Mastermind
+Deathlock Wight
+Decapus
+Deep Scion
+Demilich
+Demon Lord, Baphomet
+Demon Lord, Demogorgon
+Demon Lord, Fraz-Urb'Luu
+Demon Lord, Graz'Zt
+Demon Lord, Juiblex
+Demon Lord, Orcus
+Demon Lord, Yeenoghu
+Demon Lord, Zuggtmoy
+Demon, Abyssal Wretch
+Demon, Alkilith
+Demon, Armanite
+Demon, Babau
+Demon, Balor
+Demon, Barlgura
+Demon, Bulezau
+Demon, Chasme
+Demon, Draegloth
+Demon, Dretch
+Demon, Dybbuk
+Demon, Glabrezu
+Demon, Goristro
+Demon, Hezrou
+Demon, Manes
+Demon, Marilith
+Demon, Maurezhi
+Demon, Maw
+Demon, Molydeus
+Demon, Nabassu
+Demon, Nalfeshnee
+Demon, Quasit
+Demon, Rutterkin
+Demon, Shadow
+Demon, Shoosuva
+Demon, Sibriex
+Demon, Vrock
+Demon, Wastrilith
+Demon, Yochlol
+Derro
+Derro Savant
+Devil, Abishai, Black
+Devil, Abishai, Blue
+Devil, Abishai, Green
+Devil, Abishai, Red
+Devil, Abishai, White
+Devil, Amnizu
+Devil, Arch, Bael
+Devil, Arch, Geryon
+Devil, Arch, Hutijin
+Devil, Arch, Moloch
+Devil, Arch, Titivilus
+Devil, Arch, Zariel
+Devil, Barbed
+Devil, Bearded
+Devil, Bone
+Devil, Chain
+Devil, Erinyes
+Devil, Hellfire Engine
+Devil, Horned
+Devil, Ice
+Devil, Imp
+Devil, Lemure
+Devil, Merregon
+Devil, Narzugon
+Devil, Nupperibo
+Devil, Orthon
+Devil, Pit Fiend
+Devil, Spined
+Devourer
+Dinosaur, Allosaurus
+Dinosaur, Ankylosaurus
+Dinosaur, Brontosaurus
+Dinosaur, Deinonychus
+Dinosaur, Dimetrodon
+Dinosaur, Hadrosaurus
+Dinosaur, Plesiosaurus
+Dinosaur, Pteranodon
+Dinosaur, Quetzalcoatlus
+Dinosaur, Stegosaurus
+Dinosaur, Triceratops
+Dinosaur, Tyrannosaurus Rex
+Dinosaur, Velociraptor
+Displacer Beast
+Doppelganger
+Dracolich Template
+Dragon, Chromatic, Black, Adult
+Dragon, Chromatic, Black, Ancient
+Dragon, Chromatic, Black, Wyrmling
+Dragon, Chromatic, Black, Young
+Dragon, Chromatic, Blue, Adult
+Dragon, Chromatic, Blue, Ancient
+Dragon, Chromatic, Blue, Wyrmling
+Dragon, Chromatic, Blue, Young
+Dragon, Chromatic, Green, Adult
+Dragon, Chromatic, Green, Ancient
+Dragon, Chromatic, Green, Wyrmling
+Dragon, Chromatic, Green, Young
+Dragon, Chromatic, Red, Adult
+Dragon, Chromatic, Red, Ancient
+Dragon, Chromatic, Red, Wyrmling
+Dragon, Chromatic, Red, Young
+Dragon, Chromatic, White, Adult
+Dragon, Chromatic, White, Ancient
+Dragon, Chromatic, White, Wyrmling
+Dragon, Chromatic, White, Young
+Dragon, Metallic, Brass, Adult
+Dragon, Metallic, Brass, Ancient
+Dragon, Metallic, Brass, Wyrmling
+Dragon, Metallic, Brass, Young
+Dragon, Metallic, Bronze, Adult
+Dragon, Metallic, Bronze, Ancient
+Dragon, Metallic, Bronze, Wyrmling
+Dragon, Metallic, Bronze, Young
+Dragon, Metallic, Copper, Adult
+Dragon, Metallic, Copper, Ancient
+Dragon, Metallic, Copper, Wyrmling
+Dragon, Metallic, Copper, Young
+Dragon, Metallic, Gold, Adult
+Dragon, Metallic, Gold, Ancient
+Dragon, Metallic, Gold, Wyrmling
+Dragon, Metallic, Gold, Young
+Dragon, Metallic, Silver, Adult
+Dragon, Metallic, Silver, Ancient
+Dragon, Metallic, Silver, Wyrmling
+Dragon, Metallic, Silver, Young
+Dragon, Turtle
+Dragonclaw
+Dragonfang
+Dragonsoul
+Dragonwing
+Dread Warrior
+Drider
+Drow
+Drow Arachnomancer
+Drow Elite Warrior
+Drow Favored Consort
+Drow House Captain
+Drow Inquisitor
+Drow Mage
+Drow Matron Mother
+Drow Priestess of Lolth
+Drow Shadowblade
+Dryad
+Duergar
+Duergar Darkhaft
+Duergar Despot
+Duergar Hammerer
+Duergar Kavalrachni
+Duergar Keeper of the Flame
+Duergar Mind Master
+Duergar Screamer
+Duergar Soulblade
+Duergar Spy
+Duergar Stone Guard
+Duergar Warlord
+Duergar Xarrorn
+Eblis
+Eidolon
+Eidolon, Sacred Statue
+Eladrin, Autumn
+Eladrin, Spring
+Eladrin, Summer
+Eladrin, Winter
+Elder Elemental, Elder Tempest
+Elder Elemental, Leviathan
+Elder Elemental, Phoenix
+Elder Elemental, Zaratan
+Elemental Myrmidon, Air
+Elemental Myrmidon, Earth
+Elemental Myrmidon, Fire
+Elemental Myrmidon, Water
+Elemental, Air
+Elemental, Earth
+Elemental, Fire
+Elemental, Water
+Empyrean
+Eternal Flame Guardian
+Eternal Flame Priest
+Eternal Flame, Flamewrath
+Eternal Flame, Razerblast
+Ettercap
+Ettin
+Faerie Dragon
+Firenewt Warlock of Imix
+Firenewt Warrior
+Flail Snail
+Flameskull
+Flumph
+Flying Monkey
+Fomorian
+Froghemoth
+Fungus, Gas Spore
+Fungus, Shrieker
+Fungus, Violet
+Galeb Duhr
+Gargoyle
+Gargoyle, Giant Four-Armed
+Genie, Dao
+Genie, Djinni
+Genie, Efreeti
+Genie, Marid
+Geonid
+Ghost
+Ghoul
+Ghoul, Ghast
+Giant Crayfish
+Giant Fly
+Giant Ice Toad
+Giant Lightning Eel
+Giant Snapping Turtle
+Giant Strider
+Giant Subterranean Lizard
+Giant, Cloud
+Giant, Cloud, Smiling One
+Giant, Fire
+Giant, Fire, Dreadnought
+Giant, Frost
+Giant, Frost, Everlasting One
+Giant, Hill
+Giant, Hill, Mouth of Grolantor
+Giant, Stone
+Giant, Stone, Dreamwalker
+Giant, Storm
+Giant, Storm, Quintessent
+Gibbering Mouther
+Giff
+Girallon
+Githyanki Gish
+Githyanki Kith'Rak
+Githyanki Knight
+Githyanki Supreme Commander
+Githyanki Warrior
+Githzerai Anarch
+Githzerai Enlightened
+Githzerai Monk
+Githzerai Zerth
+Gnoll
+Gnoll Fang of Yeenoghu
+Gnoll Flesh Gnawer
+Gnoll Hunter
+Gnoll Pack Lord
+Gnoll Witherling
+Gnoll, Flind
+Gnome, Deep (Svirfneblin)
+Goblin
+Goblin Boss
+Golem, Clay
+Golem, Flesh
+Golem, Iron
+Golem, Stone
+Gorgon
+Gray Render
+Grell
+Grick
+Grick Alpha
+Griffon
+Grimlock
+Grung
+Grung Elite Warrior
+Grung Wildling
+Guard Drake
+Guardian Portrait
+Hag, Annis
+Hag, Bheur
+Hag, Green
+Hag, Night
+Hag, Sea
+Half-Dragon Template
+Harpy
+Hell Hound
+Helmed Horror
+Hippogriff
+Hobgoblin
+Hobgoblin Captain
+Hobgoblin Devastator
+Hobgoblin Iron Shadow
+Hobgoblin Warlord
+Homunculus
+Hook Horror
+Howler
+Howling Hatred Initiate
+Howling Hatred Priest
+Howling Hatred, Feathergale Knight
+Howling Hatred, Hurricane
+Howling Hatred, Skyweaver
+Hulking Crab
+Hydra
+Ice Toad
+Inevitable, Marut
+Intellect Devourer
+Invisible Stalker
+Ixitxachitl
+Ixitxachitl, Vampiric
+Jackalwere
+Jaculi
+Kalka-Kylla
+Kamadan
+Kelpie
+Kenku
+Ki-Rin
+Kobold
+Kobold Dragonshield
+Kobold Inventor
+Kobold Scale Sorcerer
+Kobold, Winged
+Korred
+Kraken
+Kraken, Malformed
+Kruthik Hive Lord
+Kruthik, Adult
+Kruthik, Young
+Kuo-Toa
+Kuo-Toa Archpriest
+Kuo-Toa Whip
+Lamia
+Leucrotta
+Lich
+Lizard King/Queen
+Lizardfolk
+Lizardfolk Shaman
+Lycanthrope, Werebear
+Lycanthrope, Wereboar
+Lycanthrope, Wererat
+Lycanthrope, Wereraven
+Lycanthrope, Weretiger
+Lycanthrope, Werewolf
+Magmin
+Manticore
+Mantrap
+Meazel
+Medusa
+Meenlock
+Mephit, Dust
+Mephit, Ice
+Mephit, Magma
+Mephit, Mud
+Mephit, Smoke
+Mephit, Steam
+Merfolk
+Merrow
+Mimic
+Mind Flayer
+Mind Flayer Lich (Illithilich)
+Mind Flayer, Alhoon
+Mind Flayer, Elder Brain
+Mind Flayer, Ulitharid
+Mindwitness
+Minotaur
+Misc. Creature, Ape
+Misc. Creature, Awakened Shrub
+Misc. Creature, Awakened Tree
+Misc. Creature, Axe Beak
+Misc. Creature, Baboon
+Misc. Creature, Badger
+Misc. Creature, Bat
+Misc. Creature, Black Bear
+Misc. Creature, Blink Dog
+Misc. Creature, Blood Hawk
+Misc. Creature, Boar
+Misc. Creature, Brown Bear
+Misc. Creature, Camel
+Misc. Creature, Cat
+Misc. Creature, Constrictor Snake
+Misc. Creature, Crab
+Misc. Creature, Crocodile
+Misc. Creature, Death Dog
+Misc. Creature, Deer
+Misc. Creature, Dire Wolf
+Misc. Creature, Draft Horse
+Misc. Creature, Eagle
+Misc. Creature, Elephant
+Misc. Creature, Elk
+Misc. Creature, Flying Snake
+Misc. Creature, Frog
+Misc. Creature, Giant Ape
+Misc. Creature, Giant Badger
+Misc. Creature, Giant Bat
+Misc. Creature, Giant Boar
+Misc. Creature, Giant Centipede
+Misc. Creature, Giant Constrictor Snake
+Misc. Creature, Giant Crab
+Misc. Creature, Giant Crocodile
+Misc. Creature, Giant Eagle
+Misc. Creature, Giant Elk
+Misc. Creature, Giant Fire Beetle
+Misc. Creature, Giant Frog
+Misc. Creature, Giant Goat
+Misc. Creature, Giant Hyena
+Misc. Creature, Giant Lizard
+Misc. Creature, Giant Octopus
+Misc. Creature, Giant Owl
+Misc. Creature, Giant Poisonous Snake
+Misc. Creature, Giant Rat
+Misc. Creature, Giant Scorpion
+Misc. Creature, Giant Sea Horse
+Misc. Creature, Giant Shark
+Misc. Creature, Giant Spider
+Misc. Creature, Giant Toad
+Misc. Creature, Giant Vulture
+Misc. Creature, Giant Wasp
+Misc. Creature, Giant Weasel
+Misc. Creature, Giant Wolf Spider
+Misc. Creature, Goat
+Misc. Creature, Hawk
+Misc. Creature, Hunter Shark
+Misc. Creature, Hyena
+Misc. Creature, Jackal
+Misc. Creature, Killer Whale
+Misc. Creature, Lion
+Misc. Creature, Lizard
+Misc. Creature, Mammoth
+Misc. Creature, Mastiff
+Misc. Creature, Mule
+Misc. Creature, Octopus
+Misc. Creature, Owl
+Misc. Creature, Panther
+Misc. Creature, Phase Spider
+Misc. Creature, Poisonous Snake
+Misc. Creature, Polar Bear
+Misc. Creature, Pony
+Misc. Creature, Quipper
+Misc. Creature, Rat
+Misc. Creature, Raven
+Misc. Creature, Reef Shark
+Misc. Creature, Rhinoceros
+Misc. Creature, Riding Horse
+Misc. Creature, Saber-Toothed Tiger
+Misc. Creature, Scorpion
+Misc. Creature, Sea Horse
+Misc. Creature, Spider
+Misc. Creature, Swarm of Bats
+Misc. Creature, Swarm of Insects
+Misc. Creature, Swarm of Poisonous Snakes
+Misc. Creature, Swarm of Quippers
+Misc. Creature, Swarm of Rats
+Misc. Creature, Swarm of Ravens
+Misc. Creature, Tiger
+Misc. Creature, Vulture
+Misc. Creature, Warhorse
+Misc. Creature, Weasel
+Misc. Creature, Winter Wolf
+Misc. Creature, Wolf
+Misc. Creature, Worg
+Modron, Duodrone
+Modron, Monodrone
+Modron, Pentadrone
+Modron, Quadrone
+Modron, Tridrone
+Mongrelfolk
+Morkoth
+Mummy
+Mummy Lord
+Myconid Adult
+Myconid Sovereign
+Myconid Sprout
+Naergoth Bladelord
+Naga, Bone
+Naga, Guardian
+Naga, Spirit
+Nagpa
+Neogi
+Neogi Hatchling
+Neogi Master
+Neothelid
+Nereid
+Nightmare
+Nightwalker
+Nilbog
+Nothic
+NPC, Abjurer
+NPC, Acolyte
+NPC, Apprentice Wizard
+NPC, Archdruid
+NPC, Archer
+NPC, Archmage
+NPC, Assassin
+NPC, Bandit
+NPC, Bandit Captain
+NPC, Bard
+NPC, Berserker
+NPC, Blackguard
+NPC, Champion
+NPC, Commoner
+NPC, Conjurer
+NPC, Cult Fanatic
+NPC, Cultist
+NPC, Diviner
+NPC, Druid
+NPC, Enchanter
+NPC, Evoker
+NPC, Gladiator
+NPC, Guard
+NPC, Illusionist
+NPC, Knight
+NPC, Kraken Priest
+NPC, Mage
+NPC, Martial Arts Adept
+NPC, Master Thief
+NPC, Necromancer
+NPC, Noble
+NPC, Priest
+NPC, Scout
+NPC, Spy
+NPC, Swashbuckler
+NPC, Thug
+NPC, Transmuter
+NPC, Tribal Warrior
+NPC, Veteran
+NPC, War Priest
+NPC, Warlock of the Archfey
+NPC, Warlock of the Fiend
+NPC, Warlock of the Great Old One
+NPC, Warlord
+Oblex Spawn
+Oblex, Adult
+Oblex, Elder
+Ogre
+Ogre Battering Ram
+Ogre Bolt Launcher
+Ogre Chain Brute
+Ogre Howdah
+Ogre, Half
+Oni
+Ooze Master
+Ooze, Black Pudding
+Ooze, Gelatinous Cube
+Ooze, Gray
+Ooze, Ochre Jelly
+Orc
+Orc Blade of Ilneval
+Orc Claw of Luthic
+Orc Eye of Gruumsh
+Orc Hand of Yurtrus
+Orc Nurtured One of Yurtrus
+Orc Red Fang of Shargaas
+Orc War Chief
+Orc, Orog
+Orc, Tanarukk
+Otyugh
+Owlbear
+Pegasus
+Peryton
+Phantom Warrior
+Piercer
+Pixie
+Prince of Apocalypse, Imix
+Prince of Apocalypse, Ogremoch
+Prince of Apocalypse, Olhydra
+Prince of Apocalypse, Yan-C-BIn
+Pseudodragon
+Pterafolk
+Purple Worm
+Purple Worm, Wormling
+Quaggoth
+Quickling
+Rakshasa
+Redcap
+Remorhaz
+Remorhaz, Young
+Retriever
+Revenant
+Roc
+Roper
+Rust Monster
+Sahuagin
+Sahuagin Baron
+Sahuagin Priestess
+Salamander
+Salamander, Fire Snake
+Salamander, Frost
+Satyr
+Scarecrow
+Sea Lion
+Sea Spawn
+Shadar-Kai Gloom Weaver
+Shadar-Kai Shadow Dancer
+Shadar-Kai Soul Monger
+Shadow
+Shadow Dragon Template
+Shadow Mastiff
+Shadow Mastiff Alpha
+Shambling Mound
+Shield Guardian
+Siren
+Skeleton
+Skeleton, Giant
+Skeleton, Minotaur
+Skeleton, Warhorse
+Skulk
+Skull Lord
+Slaad Tadpole
+Slaad, Blue
+Slaad, Death
+Slaad, Gray
+Slaad, Green
+Slaad, Red
+Slithering Tracker
+Sorrowsworn, The Angry
+Sorrowsworn, The Hungry
+Sorrowsworn, The Lonely
+Sorrowsworn, The Lost
+Sorrowsworn, The Wretched
+Spawn of Kyuss
+Specter
+Sphinx, Andro
+Sphinx, Gyno
+Spore Servant Template
+Sprite
+Star Spawn Grue
+Star Spawn Hulk
+Star Spawn Larva Mage
+Star Spawn Mangler
+Star Spawn Seer
+Steeder, Female
+Steeder, Male
+Steel Predator
+Stirge
+Stone Cursed
+Stone Juggernaut
+Strahd's Animated Armor
+Su-Monster
+Succubus/Incubus
+Sword Wraith Commander
+Sword Wraith Warrior
+Tabaxi Hunter
+Tabaxi Minstrel
+Tarrasque
+Tecuziztecatl
+Thayan Apprentice
+Thayan Warrior
+Thorn Slinger
+Thorny
+Thri-Kreen
+Tiamat
+Tiny Servant
+Tlincalli
+Topi
+Tortle
+Tortle Druid
+Trapper
+Treant
+Tressym
+Tri-Flower Frond
+Troglodyte
+Troglodyte Champion of Laogzed
+Troll
+Troll, Dire
+Troll, Rot
+Troll, Spirit
+Troll, Venom
+Umber Hulk
+Unicorn
+Uthgardt Shaman
+Vampire
+Vampire Spawn
+Vampiric Mist
+Vargouille
+Vegepygmy
+Vegepygmy Chief
+Water Weird
+White Maw
+Wight
+Will-O'-Wisp
+Wood Woad
+Wraith
+Wyvern
+Xorn
+Xvart
+Xvart Speaker
+Xvart Warlock of Raxivort
+Yakfolk Priest
+Yakfolk Warrior
+Yellow Musk Creeper
+Yellow Musk Zombie
+Yeth Hound
+Yeti
+Yeti, Abominable
+Yuan-Ti Abomination
+Yuan-Ti Anathema
+Yuan-Ti Broodguard
+Yuan-Ti Malison
+Yuan-Ti Mind Whisperer
+Yuan-Ti Nightmare Speaker
+Yuan-Ti Pit Master
+Yuan-Ti Pureblood
+Yugoloth, Arcana
+Yugoloth, Cano
+Yugoloth, Dhergo
+Yugoloth, Hydro
+Yugoloth, Merreno
+Yugoloth, Mezzo
+Yugoloth, Nyca
+Yugoloth, Oino
+Yugoloth, Ultro
+Yugoloth, Yagno
+Zombie
+Zombie, Ankylosaurus
+Zombie, Beholder
+Zombie, Girallon
+Zombie, Greater
+Zombie, Ogre
+Zombie, Strahd
+Zombie, Tyrannosaurus
+Zorbo
+Zuggtmoy, Bridesmaid
+Zuggtmoy, Chamberlain
