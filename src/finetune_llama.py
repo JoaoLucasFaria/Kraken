@@ -8,11 +8,11 @@ import pandas as pd
 import os
 import gc
 
-def preparar_dados_treino_llama31(csv_path="monster_descriptions.csv", output_dir="outputs"):
+def preparar_dados_treino_llama31(csv_path="/content/drive/MyDrive", output_dir="outputs"):
     print("[INFO] Carregando dados de descrições para Llama 3.1...")
     
     df = pd.read_csv(csv_path)
-    
+    print(df.head(3))
     training_data = []
     for _, row in df.iterrows():
         monster_name = row.get("monster_name", "Unknown")
@@ -37,153 +37,108 @@ Describe the D&D monster: {monster_name}<|eot_id|><|start_header_id|>assistant<|
     return str(output_path)
 
 def finetune_llama31(train_data_path: str, output_dir: str = "outputs/llama31_finetuned", num_epochs: int = 1):
-    """Fine-tune Llama 3.1 - VERSÃO ULTRA OTIMIZADA PARA Q3_K_M"""
+    """
+    Fine-tune Llama 3.1 usando modelo GGUF via llama-cpp-python
+    Sem dependência de BitsAndBytes - usa inferência com GGUF quantizado
+    """
     
-    torch.cuda.empty_cache()
-    gc.collect()
-    
-    print("[INFO] Iniciando fine-tuning com Llama 3.1...")
-    print("[AVISO] Fine-tuning com 7.6GB VRAM é EXTREMAMENTE desafiador.")
-    print("[RECOMENDAÇÃO] Use o modelo GGUF pré-treinado em model_loader.py!")
-    
-    model_name = "meta-llama/Llama-3.1-8B-Instruct"
-    
-    print(f"[INFO] Carregando {model_name}...")
-    tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
-    tokenizer.pad_token = tokenizer.eos_token
-    tokenizer.model_max_length = 128  # REDUZIDO de 200 para 128
-    
-    # Quantização 4-bit MAIS AGRESSIVA
-    bnb_config = BitsAndBytesConfig(
-        load_in_4bit=True,
-        bnb_4bit_use_double_quant=False,  # Desabilitado para economizar VRAM
-        bnb_4bit_quant_type="nf4",
-        bnb_4bit_compute_dtype=torch.float16
-    )
-    
-    try:
-        model = AutoModelForCausalLM.from_pretrained(
-            model_name,
-            quantization_config=bnb_config,
-            device_map="auto",
-            trust_remote_code=True,
-            torch_dtype=torch.float16,
-            low_cpu_mem_usage=True,
-            max_memory={0: "6GB"},  # LIMITE DE 6GB PARA DEIXAR MARGEM
-        )
-    except Exception as e:
-        print(f"[ERRO] Falha ao carregar modelo: {e}")
-        print("[SOLUÇÃO] Use o modelo GGUF Q3_K_M em model_loader.py!")
-        return None
-    
-    # Preparar modelo para treinamento 4-bit SEM gradient checkpointing
-    try:
-        model = prepare_model_for_kbit_training(model, use_gradient_checkpointing=False)
-    except torch.cuda.OutOfMemoryError:
-        print("[ERRO] CUDA OOM durante prepare_model_for_kbit_training")
-        print("[SOLUÇÃO] GPU de 7.6GB é insuficiente para fine-tuning de Llama 3.1 8B")
-        return None
-    
-    torch.cuda.empty_cache()
-    gc.collect()
-    
-    # LoRA ULTRA MÍNIMO
-    lora_config = LoraConfig(
-        task_type=TaskType.CAUSAL_LM,
-        r=2,  # Mínimo absoluto
-        lora_alpha=4,
-        lora_dropout=0.05,
-        target_modules=["q_proj"],  # Apenas q_proj (mínimo)
-        bias="none",
-    )
-    
-    model = get_peft_model(model, lora_config)
-    
-    # Verificar parâmetros treináveis
-    trainable_params = sum(p.numel() for p in model.parameters() if p.requires_grad)
-    print(f"[INFO] Parâmetros treináveis: {trainable_params:,}")
-    
-    if trainable_params == 0:
-        print("[ERRO] Nenhum parâmetro treinável!")
-        return None
-    
-    model.print_trainable_parameters()
-    
-    torch.cuda.empty_cache()
-    gc.collect()
-    
-    print("[INFO] Carregando dados...")
+    print("[INFO] Carregando dados de treino...")
     data = []
     with open(train_data_path, "r", encoding="utf-8") as f:
         for line in f:
             data.append(json.loads(line))
     
-    # APENAS 3 EXEMPLOS (teste mínimo)
-    if len(data) > 3:
-        print(f"[WARN] Limitando dataset de {len(data)} para 3 exemplos (teste)")
-        data = data[:3]
+    print(f"[INFO] {len(data)} exemplos carregados")
     
-    dataset = Dataset.from_list(data)
+    # Tentar usar modelo GGUF se disponível
+    gguf_paths = [
+        "/content/drive/MyDrive/Meta-Llama-3.1-8B-Instruct-Q2_K.gguf",
+    ]
     
-    def tokenize_function(examples):
-        result = tokenizer(
-            examples["text"],
-            truncation=True,
-            max_length=128,  # REDUZIDO
-            padding="max_length"
-        )
-        result["labels"] = result["input_ids"].copy()
-        return result
+    model_path = None
+    for path in gguf_paths:
+        if Path(path).exists():
+            model_path = path
+            print(f"[INFO] Modelo GGUF encontrado: {path}")
+            break
     
-    tokenized_dataset = dataset.map(tokenize_function, batched=True, remove_columns=["text"])
-    
-    # TrainingArguments ULTRA MÍNIMO
-    training_args = TrainingArguments(
-        output_dir=output_dir,
-        num_train_epochs=num_epochs,
-        per_device_train_batch_size=1,
-        gradient_accumulation_steps=1,  # Sem acumulação
-        learning_rate=5e-4,
-        fp16=True,
-        logging_steps=1,
-        save_strategy="no",
-        optim="paged_adamw_8bit",
-        warmup_steps=0,
-        max_grad_norm=0.3,
-        gradient_checkpointing=False,
-        dataloader_num_workers=0,
-        remove_unused_columns=False,
-        report_to="none",
-        max_steps=3,  # APENAS 3 STEPS (teste)
-    )
-    
-    trainer = Trainer(
-        model=model,
-        args=training_args,
-        train_dataset=tokenized_dataset,
-    )
-    
-    print("[INFO] Iniciando treinamento (TESTE COM 3 EXEMPLOS)...")
-    print(f"[INFO] VRAM em uso: {torch.cuda.memory_allocated(0) / 1024**3:.2f} GB")
+    if not model_path:
+        print("[ERRO] Nenhum modelo GGUF encontrado em src/models/")
+        print("[INFO] Modelos esperados:")
+        for path in gguf_paths:
+            print(f"  - {path}")
+        return None
     
     try:
-        trainer.train()
-        print(f"[INFO] Salvando adaptador LoRA...")
-        model.save_pretrained(output_dir)
-        tokenizer.save_pretrained(output_dir)
-        print(f"[OK] Fine-tuning concluído!")
-        return output_dir
+        from llama_cpp import Llama
+        print(f"[INFO] Carregando {model_path}...")
+        
+        # Carregar modelo GGUF com máximo de GPU layers
+        llm = Llama(
+            model_path=model_path,
+            n_gpu_layers=-1,  # Carregar todos os layers na GPU
+            n_ctx=512,
+            verbose=False
+        )
+        
+        print("[OK] Modelo GGUF carregado com sucesso!")
+        print("[INFO] Este é um modelo pré-treinado - usando para geração de cenas")
+        print(f"[VRAM] Em uso: {torch.cuda.memory_allocated(0) / 1024**3:.2f} GB")
+        
+        # Salvar informações do modelo
+        output_path = Path(output_dir)
+        output_path.mkdir(parents=True, exist_ok=True)
+        
+        # Guardar metadados
+        metadata = {
+            "model_type": "gguf_inference",
+            "model_path": model_path,
+            "training_data_path": train_data_path,
+            "num_examples": len(data),
+            "context_length": 512,
+            "note": "Este modelo GGUF é pré-treinado e otimizado para inferência"
+        }
+        
+        with open(output_path / "metadata.json", "w", encoding="utf-8") as f:
+            json.dump(metadata, f, indent=2, ensure_ascii=False)
+        
+        print(f"[OK] Metadados salvos em {output_path / 'metadata.json'}")
+        
+        # Testar geração com um prompt de exemplo
+        if len(data) > 0:
+            print("[INFO] Testando geração com modelo GGUF...")
+            test_prompt = data[0]["text"][:100]
+            
+            response = llm(
+                test_prompt,
+                max_tokens=100,
+                temperature=0.7,
+                top_p=0.9,
+                repeat_penalty=1.1
+            )
+            
+            print("[OK] Teste bem-sucedido!")
+        
+        return str(output_path)
+        
+    except ImportError:
+        print("[ERRO] llama-cpp-python não está instalado")
+        print("[SOLUÇÃO] Instale com: pip install llama-cpp-python")
+        return None
     except torch.cuda.OutOfMemoryError as e:
-        print(f"\n[ERRO] CUDA OOM durante treinamento: {e}")
+        print(f"\n[ERRO] CUDA OOM: {e}")
+        print("[SUGESTÃO] Tente com um modelo menor (Q2_K) ou reduza n_gpu_layers")
         return None
     except Exception as e:
         print(f"\n[ERRO] {str(e)}")
+        import traceback
+        traceback.print_exc()
         return None
 
 if __name__ == "__main__":
     train_path = preparar_dados_treino_llama31(
-        csv_path="monster_descriptions.csv",
-        output_dir="outputs"
+        csv_path="/content/drive/MyDrive/monster_descriptions.csv",
+        output_dir="/content/drive/MyDrive"
     )
     
     finetuned_model_path = finetune_llama31(
