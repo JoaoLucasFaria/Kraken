@@ -5,7 +5,7 @@ from pathlib import Path
 
 
 class FinetunedModel:
-    """Carrega modelo fine-tunado (base HF + adapter LoRA local)"""
+    """Carrega modelo fine-tuned (base HF + adapter LoRA local)"""
     
     def __init__(self, base_model: str = "meta-llama/Llama-3.1-8B-Instruct", 
                  adapter_path: str = "src/models/llama_finetuned",
@@ -36,10 +36,10 @@ class FinetunedModel:
         # Carregar adapter LoRA fine-tunado
         self.model = PeftModel.from_pretrained(self.model, str(self.adapter_path))
         self.model.eval()
-        print("[OK] Modelo fine-tunado carregado com sucesso!")
+        print("[OK] Modelo fine-tuned carregado com sucesso!")
     
     def generate(self, prompt: str, max_tokens: int = 300) -> str:
-        """Gera texto usando o modelo fine-tunado"""
+        """Gera texto usando o modelo fine-tuned"""
         inputs = self.tokenizer(prompt, return_tensors="pt").to(self.model.device)
         
         with torch.no_grad():
