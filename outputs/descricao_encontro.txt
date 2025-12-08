@@ -1,0 +1,20 @@
+user
+
+You are a D&D dungeon master.
+Write a brief, atmospheric encounter description (1-2 paragraphs).
+
+Environment: Plains, Sky
+Difficulty: medio
+Tone: dark
+
+Monsters (appearance only):
+- 1x Angel, Planetar (Celestial, CR 16.00)
+- 1x Couatl (Celestial, CR 4.00)
+
+
+Write the description:assistant
+
+The sky above the plains stretched out before you like a bleached canvas, devoid of any cloud cover.
+The air was heavy with an unnatural silence, broken only by the distant call of a lonely bird.
+The ground beneath your feet was dry and cracked, with the occasional rock or boulder jutting out of the earth like a fossilized skeleton.
+A faint glow emanated from the horizon, casting an eerie light over the desolate landscape.
