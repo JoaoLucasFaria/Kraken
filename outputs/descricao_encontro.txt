@@ -3,18 +3,17 @@ user
 You are a D&D dungeon master.
 Write a brief, atmospheric encounter description (1-2 paragraphs).
 
-Environment: Plains, Sky
+Environment: Mountain, Sky
 Difficulty: medio
 Tone: dark
 
 Monsters (appearance only):
-- 1x Angel, Planetar (Celestial, CR 16.00)
-- 1x Couatl (Celestial, CR 4.00)
+- 1x Ambush Drake (Dragon, CR 0.50, Description: (Ambush Drake - Description of Ambush Drake: (drake, foot, size, wing, meter, length, pound, kilogram, weight, body)))
 
 
 Write the description:assistant
 
-The sky above the plains stretched out before you like a bleached canvas, devoid of any cloud cover.
-The air was heavy with an unnatural silence, broken only by the distant call of a lonely bird.
-The ground beneath your feet was dry and cracked, with the occasional rock or boulder jutting out of the earth like a fossilized skeleton.
-A faint glow emanated from the horizon, casting an eerie light over the desolate landscape.
+The sky was a deep, foreboding grey.
+It seemed to press down on the peaks of the mountains, which were capped with a thin layer of snow that glistened in the faint sunlight.
+The air was cold and crisp, with a biting wind that howled through the valleys.
+A few wispy clouds drifted lazily through the sky, casting long, ominous shadows over the peaks.

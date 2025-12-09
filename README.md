@@ -67,7 +67,11 @@ Este projeto utiliza o modelo **Llama 3.1 8B Instruct** em duas variações:
    ```bash
    pip install -r requirements.txt
    ```
-3. Baixe o modelo GGUF (veja seção "Modelos Necessários")
+3. execute 
+```bash
+   python -m spacy download en_core_web_s
+   ```
+4. Baixe o modelo GGUF (veja seção "Modelos Necessários")
 
 ### Passo 2: Processamento de Dados
 Execute as seguintes células do `code.ipynb` sequencialmente:
