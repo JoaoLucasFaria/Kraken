@@ -1,12 +1,13 @@
 import requests
 from requests import Response
 from bs4 import BeautifulSoup
-from typing import Any
+from typing import Any, List, Dict
 import os
 import csv
 import time
 import random
 import re
+from pathlib import Path
 
 def normalize_name(name: str) -> str:
   name = name.strip()
@@ -36,22 +37,42 @@ def load_names(filepath: str):
   return name_list
 
 
-def log_error(result: dict):
-  with open("errors2.txt", "a", encoding="utf-8") as f:
+def log_error(result: dict, error_file:str):
+  with open(error_file, "a", encoding="utf-8") as f:
     f.write(
       f"{result['url']} - {result['message']}\n"
     )
 
-def save_success_to_csv(monster_name: str, description: str):
-  file_exists = os.path.isfile("output2.csv")
+def save_success_to_csv(dict_to_save: Dict[str, str], output_file: str | Path):
+  
+  file_exists = os.path.isfile(output_file)
 
-  with open("output2.csv", "a", encoding="utf-8", newline="") as csvfile:
+  with open(output_file, "a", encoding="utf-8", newline="") as csvfile:
     writer = csv.writer(csvfile, quoting=csv.QUOTE_ALL)
 
     if not file_exists:
-      writer.writerow(["monster_name", "description"])
-    cleaned_description = description.strip().replace('\n', ' ').replace('\r', ' ')
-    writer.writerow([monster_name, cleaned_description])
+      writer.writerow(dict_to_save.keys())
+    for key in dict_to_save.keys():
+      dict_to_save[key] = dict_to_save[key].strip().replace('\n', ' ').replace('\r', ' ')
+    writer.writerow(dict_to_save.values())
+
+def find_content(title:str, title_tag: str, soup: BeautifulSoup):
+  content_title = None
+  for t_tag in soup.find_all(title_tag):
+    span = t_tag.find("span")
+    if span and (span.get_text(strip=True).lower() == title.lower() or "type" in span.get_text(strip=True)):
+      content_title = t_tag
+      break
+  if not content_title:
+    return "NOT FOUND"
+  else:
+    content = []
+    for sibling in content_title.find_all_next():
+      if sibling.name in ["h1", "h2", "h3", "h4", "h5", "h6"]:
+        break
+      if sibling.name == "p":
+        content.append(sibling.get_text(strip=True))
+    return "\n".join(content) 
 
 def extract_description(url: str) -> dict[str, Any]:
     try:
@@ -67,47 +88,54 @@ def extract_description(url: str) -> dict[str, Any]:
 
     soup = BeautifulSoup(response.text, "html.parser")
 
-    monster_name = None
+    monster_name = "Name Not Found"
     for h1 in soup.find_all("h1"):
       span = h1.find("span")
       if span:
         monster_name = span.get_text(strip=True).lower() 
 
-    description_h2 = None
-    for h2 in soup.find_all("h2"):
-        span = h2.find("span")
-        if span and span.get_text(strip=True).lower() == "description":
-            description_h2 = h2
-            break
-
-    if not description_h2:
-        return {
-        "url": url,
-        "success": False,
-        "error_code": "REQUEST_ERROR",
-        "message": "DESCRIPTION NOT PRESENT"
-      }
-
-    content = []
-    for sibling in description_h2.find_all_next():
-        if sibling.name in ["h1", "h2", "h3", "h4", "h5", "h6"]:
-            break
-        if sibling.name == "p":
-            content.append(sibling.get_text(strip=True))
-
-    if not content:
-      return {
-        "url": url,
-        "error_code": "EMPTY_SECTION",
-        "success": False,
-        "message": "No <p> elements found after the Description section."
-      }
-
-    description = "\n".join(content)
+    abstract = find_content(monster_name, "h1", soup)
+    description = find_content("description", "h2", soup)
+    personality = find_content("personality", "h2", soup)
+    realm = find_content("realm", "h2", soup)
+    activities = find_content("activities", "h2", soup)
+    combat = find_content("combat", "h2", soup)
+    biology = find_content("biology", "h2", soup)
+    society = find_content("society", "h2", soup)
+    abilities = find_content("abilities", "h2", soup)
+    behavior = find_content("behavior", "h2", soup)
+    reputation = find_content("reputation", "h2", soup)
+    culture = find_content("culture", "h3", soup)
+    sub_races = find_content("sub-races", "h3", soup)
+    types = find_content("types", "h2", soup)
+    history = find_content("history", "h2", soup)
+    rumors = find_content("rumors & legends", "h2", soup)
+    magic = find_content("magic", "h3", soup)
+    uses_h2 = find_content("uses", "h2", soup)
+    uses_h3 = find_content("uses", "h3", soup)
+    
+    
     return {
       "success": True,
       "monster_name": monster_name,
-      "description": description
+      "description": description,
+      "abstract": abstract,
+      "personality": personality,
+      "realm": realm,
+      "activities": activities,
+      "combat": combat,
+      "biology": biology,
+      "society": society,
+      "abilities": abilities,
+      "behavior": behavior,
+      "reputation": reputation,
+      "culture": culture,
+      "sub-races": sub_races,
+      "types": types,
+      "history": history,
+      "rumors": rumors,
+      "magic": magic,
+      "uses": uses_h2 + uses_h3
       }
 
 
@@ -115,11 +143,12 @@ if __name__ == "__main__":
   # urls = [
   #   "https://forgottenrealms.fandom.com/wiki/Kenkus",
   # ]
-
-  file_path = "monster_names.txt"
-  name_list = load_names(file_path)
-  print(len(name_list))
-  print(name_list)
+  
+  OUTPUT_FILE = "more_data.csv"
+  NAME_LIST_PATH = "monster_names.txt"
+  ERROR_FILE = "error_more_data.txt"
+  
+  name_list = load_names(NAME_LIST_PATH)
   
   current_initial = "A"
  
@@ -137,7 +166,8 @@ if __name__ == "__main__":
     res = extract_description(url)
     
     if (res.get("success") == False):
-      log_error(res)
+      log_error(res, ERROR_FILE)
     else:
-      save_success_to_csv(res["monster_name"], res["description"])
+      res.pop("success")
+      save_success_to_csv(res, OUTPUT_FILE)
         
