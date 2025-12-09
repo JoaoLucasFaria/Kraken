@@ -87,6 +87,16 @@ def expand_monster_terms(csv_path: str, monster_name: str, top_k=20) -> List[str
     expander = TermExpander()
     terms = expander.extract(description, top_k=top_k)
     return terms
+  
+def expand_monster(monster_name: str):
+  return expand_monster_terms("monster_descriptions.csv", monster_name, 10)
+
+def format_monster(monster_name):
+  termos = expand_monster(monster_name)
+  if not termos:
+    return monster_name
+  termos_txt = ", ".join(termos)
+  return f"{monster_name} - Description of {monster_name}: ({termos_txt})"
 
 #Só para testes
 if __name__ == "__main__":
