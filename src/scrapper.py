@@ -6,7 +6,6 @@ import os
 import csv
 import time
 import random
-from urls import urlsA, urlsB, urlsC
 import re
 
 def normalize_name(name: str) -> str:
